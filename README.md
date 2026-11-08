@@ -8,12 +8,13 @@ Bộ công cụ so sánh giờ sinh cho **nam, sinh ngày 19/01/2001 tại Hà N
 - [Phần 1 — Mệnh, công việc, tiền bạc](./phan-1-menh-cong-viec-tien-bac.html): 39 nhận xét riêng cho 13 phương án.
 - [Phần 2 — Tình duyên và gia đình](./phan-2-tinh-duyen-gia-dinh.html): 78 nhận xét riêng cho 13 phương án × 6 chủ đề, kèm bảng đối chiếu các giờ theo từng chủ đề, liên hệ Phúc Đức – Thiên Di và đối cung, nhận xét cả dị bản Tứ Hóa năm Canh.
 - [Phần 3 — Sức khỏe, xuất ngoại, nhà đất và đại hạn](./phan-3-suc-khoe-thien-di-dien-trach-dai-han.html): 39 nhận xét chi tiết Tật Ách–Thiên Di–Điền Trạch, 13 phần luận đại hạn, cùng 4 bảng so sánh đủ 13 giờ.
+- [Phần 4 — Soát kỹ thuật và timeline](./phan-4-kiem-dinh-cau-truc-va-nien-han.html): đối chiếu 182 vị trí chính tinh, 663 vị trí phụ tinh, 273 giá trị độ sáng; bảng hạn 2019–2026, quy tắc tuổi mụ theo ngày Tết và checklist so sánh biến cố.
 - Các bảng **đủ 13 phương án trong mỗi hạng mục**: công việc, tiền bạc, tình duyên, sức khỏe, xuất ngoại, nhà đất, tính cách, Phúc Đức, cha mẹ, đồng nghiệp, con cái.
 - Mỗi dòng ghi chính tinh, sao hỗ trợ, sao cần xem xét, đối cung và ý nghĩa sơ bộ. Bấm vào một dòng để mở lá số.
 - [du-lieu-laso-19012001.json](./du-lieu-laso-19012001.json): toàn bộ dữ liệu 13 lá số, dùng được cho nghiên cứu tiếp.
 - Nút chuyển **hai hệ Tứ Hóa năm Canh**; cách A: Thái Dương Lộc, Vũ Khúc Quyền, Thái Âm Khoa, Thiên Đồng Kỵ; cách B: Thái Dương Lộc, Vũ Khúc Quyền, Thiên Đồng Khoa, Thái Âm Kỵ.
 
-**Tình trạng:** phần 1, 2, 3 đã có bản chi tiết; cần thêm lượt kiểm tra chéo cuối cho toàn bộ 13 lá số, độ sáng và các dị bản an sao.
+**Tình trạng:** phần 1–3 đã có luận chi tiết; phần 4 đã soát kỹ thuật sao và timeline theo hệ quy tắc đang dùng. Vẫn cần biên tập/soát lập luận từ sách, các khác biệt trường phái, và kiểm nghiệm lời luận trên dữ kiện đời thực; không suy mức khớp là xác suất chính xác của giờ sinh.
 
 ## Kích hoạt đường dẫn website công khai
 
