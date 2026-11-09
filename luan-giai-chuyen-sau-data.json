@@ -1,0 +1,817 @@
+{
+ "title": "Luận giải 12 cung × 13 giờ — dữ liệu diễn giải phiên bản hợp nhất",
+ "version": "2026-11-09",
+ "sourceBooks": [
+  "Tử Vi Đại Toàn – beta version, các mục cung vị",
+  "Tử Vi đẩu số toàn thư – Vũ Tài Lục dịch, bình chú",
+  "Tử Vi Thực Hành (trích trong nguồn sách do người dùng cung cấp)"
+ ],
+ "notes": {
+  "Tý": {
+   "Mệnh": {
+    "text": "Tử Vi đắc địa đi cùng Phá Quân vượng tại Sửu tạo hình tượng thích nắm việc lớn, quyết đoán, muốn thay đổi cách vận hành thay vì chỉ tuân thủ. Điểm yếu là dễ phá bỏ hệ thống quá sớm hoặc chịu áp lực phải chứng minh năng lực. Thân cư Mệnh khiến động cơ cá nhân và tính tự chủ được nhấn mạnh.",
+    "source": "phan-1-menh-cong-viec-tien-bac.html",
+    "kind": "phân tích Mệnh–Quan–Tài"
+   },
+   "Quan Lộc": {
+    "text": "Quan Lộc Liêm Trinh–Tham Lang đều hãm ở Tỵ, lại có Đại Hao và Thiên Không: sách cổ không coi là đường công danh bằng phẳng. Có thể hợp kinh doanh, thương mại, tiếp thị hoặc môi trường đổi mới, nhưng cũng dễ chuyển hướng, hao công và có giai đoạn công sức không thành kết quả.",
+    "source": "phan-1-menh-cong-viec-tien-bac.html",
+    "kind": "phân tích Mệnh–Quan–Tài"
+   },
+   "Tài Bạch": {
+    "text": "Tài Bạch Vũ Khúc đắc + Thất Sát hãm, Hóa Quyền, Kình Dương và Tuần tại Dậu. Vũ Khúc tạo động lực kiếm và quản lý tiền, nhưng Thất Sát hãm–Kình–Tuần là tổ hợp không thuận tích lũy ổn định. Thu nhập có thể gắn những quyết định lớn, rồi lại bị cản hoặc hao; không phải bộ tài tinh thuần đẹp.",
+    "source": "phan-1-menh-cong-viec-tien-bac.html",
+    "kind": "phân tích Mệnh–Quan–Tài"
+   },
+   "Phu Thê": {
+    "text": "Không Kiếp cùng đóng Phu Thê tại Hợi dù được ghi đắc địa vẫn là điểm cảnh báo trực tiếp theo sách về tình cảm nguội dần và thiếu hòa khí. Hữu Bật, Bát Tọa, Hồng Loan cho thấy duyên gặp gỡ và sự hỗ trợ, nhưng không đủ để xóa cảnh báo. Cung Phu không có chính tinh, cần nhìn đối cung và tam hợp chứ không luận từ Đào Hồng riêng lẻ.",
+    "source": "phan-2-tinh-duyen-gia-dinh.html",
+    "kind": "phân tích gia đạo và quan hệ"
+   },
+   "Phúc Đức": {
+    "text": "Thiên Phủ ở Phúc Đức cùng Tả Phù, Tam Thai cho một điểm tựa tương đối tốt về khả năng sắp xếp cuộc sống và sự hỗ trợ. So với cung Phu có Không Kiếp, đây là yếu tố nâng đỡ quan trọng, nhưng không thể hiểu thành ‘phúc tốt nên hôn nhân chắc bền’.",
+    "source": "phan-2-tinh-duyen-gia-dinh.html",
+    "kind": "phân tích gia đạo và quan hệ"
+   },
+   "Phụ Mẫu": {
+    "text": "Cung Phụ Mẫu vô chính diệu, có Hỏa Tinh đắc, Thiên Khốc và Thiên Mã: hình tượng gia đình có sự chuyển dịch, bận rộn, đôi lúc khó đồng nhịp trong cảm xúc. Phong Cáo và Thiên Trù là các yếu tố bổ sung; cần kiểm tra đối cung, không áp lời cổ ‘khắc cha mẹ’ theo nghĩa đen.",
+    "source": "phan-2-tinh-duyen-gia-dinh.html",
+    "kind": "phân tích gia đạo và quan hệ"
+   },
+   "Huynh Đệ": {
+    "text": "Thiên Cơ đắc tại Huynh, thêm Thiên Riêu và Thiên Y, gợi quan hệ anh chị em có sự thay đổi về hướng học hoặc nghề. Có thể hợp nhau khi bàn công việc, nhưng việc duy trì gắn bó phụ thuộc giao tiếp thực tế. Xung Nô Cự Môn bị Triệt là điểm nên tính khi xét các mối quan hệ gần.",
+    "source": "phan-2-tinh-duyen-gia-dinh.html",
+    "kind": "phân tích gia đạo và quan hệ"
+   },
+   "Tử Tức": {
+    "text": "Thái Dương hãm tại Tuất có Văn Xương đắc và Hóa Lộc là thế cát–hung đồng thời: sách nhấn mạnh khó khăn với Thái Dương hãm nhưng Xương, Lộc vẫn hỗ trợ ý nghĩa học hỏi, hoạt động. Linh Tinh hãm và Thiên Hư làm lời luận về quan hệ thế hệ sau bớt thuận.",
+    "source": "phan-2-tinh-duyen-gia-dinh.html",
+    "kind": "phân tích gia đạo và quan hệ"
+   },
+   "Nô Bộc": {
+    "text": "Cự Môn vượng có bộ Phượng Các, Giải Thần, Thiên Phúc, Thiên Giải, Địa Giải: có khả năng tìm người hỗ trợ qua lời nói và chuyên môn. Nhưng Triệt án Nô, nên sự giúp đỡ có thể đến chậm hoặc phải thay đổi cộng sự; không nên chỉ nhìn số lượng bạn bè.",
+    "source": "phan-2-tinh-duyen-gia-dinh.html",
+    "kind": "phân tích gia đạo và quan hệ"
+   },
+   "Tật Ách": {
+    "text": "Đồng–Lương tại Tật vốn là tổ hợp phúc tinh, thiên về sức bền và khả năng được hỗ trợ khi khó khăn. Nhưng Tuần, Thiên Hình và đặc biệt Thiên Đồng Hóa Kỵ (hệ A) làm cách cục không thuần tốt; hệ B đổi thành Hóa Khoa. Đối chiếu chuyện bệnh ruột ở tuổi nhỏ phải xem cả Mệnh và hạn, không chỉ lấy một chữ Đồng hay Kỵ.",
+    "source": "phan-3-suc-khoe-thien-di-dien-trach-dai-han.html",
+    "kind": "phân tích Tật–Di–Điền"
+   },
+   "Thiên Di": {
+    "text": "Thiên Tướng đắc gợi cơ hội tham gia tổ chức, hợp tác, được người có trách nhiệm hỗ trợ. Có Thiên Khôi nhưng Triệt và Đà La đóng trực tiếp: ra ngoài dễ phải sửa kế hoạch hoặc trải qua trì hoãn, nhất là thủ tục và thay đổi việc. Đây không phải bố cục đi xa hoàn toàn thuận.",
+    "source": "phan-3-suc-khoe-thien-di-dien-trach-dai-han.html",
+    "kind": "phân tích Tật–Di–Điền"
+   },
+   "Điền Trạch": {
+    "text": "Thái Âm hãm ở Điền không sáng về giữ điền sản như Thái Âm miếu; Văn Khúc hãm và Thiên La tăng tính ràng buộc. Hệ A có Hóa Khoa giảm bớt, hệ B lại đặt Hóa Kỵ tại đây. Quốc Ấn, Hoa Cái tạo tính tổ chức; phải đọc song song hai dị bản, không khẳng định được nhiều nhà đất.",
+    "source": "phan-3-suc-khoe-thien-di-dien-trach-dai-han.html",
+    "kind": "phân tích Tật–Di–Điền"
+   }
+  },
+  "Sửu": {
+   "Mệnh": {
+    "text": "Thiên Cơ đắc ở Tý biểu trưng đầu óc tìm cách, thích quan sát và thay đổi kế hoạch. Địa Kiếp cùng Mệnh là điểm trừ về tính ổn định; Thân cư Phúc Đức khiến nhu cầu an ổn nội tâm, gia đình và giá trị cá nhân ảnh hưởng mạnh quyết định nghề.",
+    "source": "phan-1-menh-cong-viec-tien-bac.html",
+    "kind": "phân tích Mệnh–Quan–Tài"
+   },
+   "Quan Lộc": {
+    "text": "Quan Lộc Thái Âm hãm nhưng nhận Hóa Khoa tại Thìn. Hóa Khoa tốt về học thức và danh tiếng, song không biến Thái Âm hãm thành miếu. Hợp việc tỉ mỉ, nghiên cứu, số liệu, hậu cần; cần tránh đánh đồng năng lực học tập với công danh chắc chắn hanh thông.",
+    "source": "phan-1-menh-cong-viec-tien-bac.html",
+    "kind": "phân tích Mệnh–Quan–Tài"
+   },
+   "Tài Bạch": {
+    "text": "Tài Bạch Thiên Đồng miếu + Thiên Lương vượng, Lộc Tồn, nhưng có Hóa Kỵ, Tuần và Thiên Hình. Bộ Đồng–Lương, Lộc Tồn tạo ý nghĩa thu nhập từ chuyên môn và tích lũy; Kỵ–Tuần lại báo trở ngại, chi phí hoặc tranh chấp. Đây là lá số có mặt tốt và xấu trực tiếp tại cung tiền bạc.",
+    "source": "phan-1-menh-cong-viec-tien-bac.html",
+    "kind": "phân tích Mệnh–Quan–Tài"
+   },
+   "Phu Thê": {
+    "text": "Thái Dương hãm tại Tuất, được Hóa Lộc nhưng đồng cung Địa Không hãm và Thiên Hư. Đây là cung Phu có điểm lợi về trao đổi, hoạt động kinh tế nhưng sách cảnh báo hãm địa gặp Không dễ thiếu hòa khí hoặc xa cách. Hóa Lộc không biến Thái Dương hãm thành miếu.",
+    "source": "phan-2-tinh-duyen-gia-dinh.html",
+    "kind": "phân tích gia đạo và quan hệ"
+   },
+   "Phúc Đức": {
+    "text": "Phúc Đức vô chính diệu có Thiên Khốc, Thiên Mã, Thiên Trù; đặc biệt Thân cư Phúc Đức khiến sự ổn định tinh thần là một chủ đề cần nhìn kỹ. Hình tượng có thể gắn với thay đổi môi trường hoặc bận tâm chuyện gia đình; đối cung mới là trọng điểm, không thể suy riêng từ Khốc là bất hạnh.",
+    "source": "phan-2-tinh-duyen-gia-dinh.html",
+    "kind": "phân tích gia đạo và quan hệ"
+   },
+   "Phụ Mẫu": {
+    "text": "Tử Vi đắc và Phá Quân vượng ở cung Phụ Mẫu tạo hình ảnh bề trên mạnh, muốn tự quyết, đôi khi có sự thay đổi lớn về cách sắp xếp gia đình. Thiên Việt và Thiên Đức hỗ trợ, còn Quả Tú, Phá Toái cho dấu hiệu khoảng cách hoặc khác quan niệm, nên đánh giá là hỗn hợp.",
+    "source": "phan-2-tinh-duyen-gia-dinh.html",
+    "kind": "phân tích gia đạo và quan hệ"
+   },
+   "Huynh Đệ": {
+    "text": "Huynh Đệ vô chính diệu nhưng có Hữu Bật, Bát Tọa, Hồng Loan, Thiên Quan; các cát tinh tạo yếu tố tương trợ dù không có chính tinh. Đối cung Nô Liêm–Tham hãm với Thiên Không, Kiếp Sát cho thấy mạng lưới bạn bè có thể gây thêm nhiễu; không quy thành anh chị em xấu.",
+    "source": "phan-2-tinh-duyen-gia-dinh.html",
+    "kind": "phân tích gia đạo và quan hệ"
+   },
+   "Tử Tức": {
+    "text": "Vũ Khúc đắc và Thất Sát hãm tại Dậu, lại có Kình Dương, Linh Tinh hãm, Tuần: phần Tử Tức thuộc nhóm sách luận nặng về xung khắc và ít gắn bó. Hóa Quyền, Đào Hoa, Nguyệt Đức giúp tạo cách nhìn hai mặt về cá tính hậu bối; không suy thành hiếm muộn hoặc chắc có ít con.",
+    "source": "phan-2-tinh-duyen-gia-dinh.html",
+    "kind": "phân tích gia đạo và quan hệ"
+   },
+   "Nô Bộc": {
+    "text": "Liêm Trinh–Tham Lang đều hãm tại Tỵ, gặp Thiên Không, Kiếp Sát, Cô Thần nhưng có Văn Khúc đắc, Thiên Hỷ. Cộng sự có thể lanh lợi, có sức hút, song theo sách dễ phát sinh cạnh tranh hoặc khó minh bạch về lợi ích; hợp tác nên quy định trách nhiệm bằng văn bản.",
+    "source": "phan-2-tinh-duyen-gia-dinh.html",
+    "kind": "phân tích gia đạo và quan hệ"
+   },
+   "Tật Ách": {
+    "text": "Thiên Tướng đắc địa cho nền Tật tương đối có cát khí, gắn với da, khí huyết và tiết niệu theo cách phân loại cơ thể trong sách. Đà La đắc và Triệt là hai yếu tố bất lợi trực tiếp, làm cách luận dễ bị gián đoạn hoặc hồi phục chậm. Thiên Khôi, Thai Phụ hỗ trợ, nên không thể gọi đây là cung Tật cực xấu.",
+    "source": "phan-3-suc-khoe-thien-di-dien-trach-dai-han.html",
+    "kind": "phân tích Tật–Di–Điền"
+   },
+   "Thiên Di": {
+    "text": "Cự Môn vượng cho năng lực giao tiếp, đàm phán hoặc làm nghề bằng lời nói khi ra ngoài; mặt trái là dễ có tranh luận. Triệt tại Di khiến sự mở rộng bên ngoài khó trơn tru. Nhiều sao Giải, Phúc và Quý tạo khả năng tìm được trợ lực sau khi gặp trở ngại, phù hợp hình tượng đi xa phải xử lý việc khó trước.",
+    "source": "phan-3-suc-khoe-thien-di-dien-trach-dai-han.html",
+    "kind": "phân tích Tật–Di–Điền"
+   },
+   "Điền Trạch": {
+    "text": "Thiên Phủ tại Điền cùng Tả Phù, Tam Thai là cấu trúc tương đối thuận về tích lũy nhà cửa, tài sản và sắp xếp nơi ở theo sách. Song Hỏa Tinh đắc đóng chung nên không phải hoàn toàn ít biến động. Có thể luận nghiêng về gây dựng và giữ tài sản hơn kiểu thay đổi liên tục, nhưng không suy thành chắc chắn có thừa kế.",
+    "source": "phan-3-suc-khoe-thien-di-dien-trach-dai-han.html",
+    "kind": "phân tích Tật–Di–Điền"
+   }
+  },
+  "Dần": {
+   "Mệnh": {
+    "text": "Thái Âm miếu tại Hợi kèm Hóa Khoa và Hữu Bật: hình tượng thận trọng, biết tích lũy tri thức, xem xét dài hạn và tìm sự hỗ trợ từ cộng sự. Tiểu Hao tại Mệnh có thể tượng cho những khoản hao nhỏ/đầu tư đều đặn. Thân cư Quan Lộc làm nổi bật đường nghề.",
+    "source": "phan-1-menh-cong-viec-tien-bac.html",
+    "kind": "phân tích Mệnh–Quan–Tài"
+   },
+   "Quan Lộc": {
+    "text": "Quan Lộc Thái Dương–Thiên Lương đều vượng tại Mão, Hóa Lộc và Tả Phù: tổ hợp sáng về nghề cần uy tín, đào tạo, tư vấn, cơ cấu tổ chức, quản trị và công việc được công nhận. Đây là điểm thuận nổi bật, nhưng phải tách thành tích nghề khỏi thu nhập giữ lại.",
+    "source": "phan-1-menh-cong-viec-tien-bac.html",
+    "kind": "phân tích Mệnh–Quan–Tài"
+   },
+   "Tài Bạch": {
+    "text": "Tài Bạch vô chính diệu tại Mùi lại gặp Triệt, Đà La. Không nên nói Tài 'không có tiền', nhưng cũng không được lấy Quan sáng để bỏ qua dấu cản trực tiếp tại Tài: tiền bạc có thể chậm tụ, có vướng mắc, cần xét đối cung và tam hợp. Sự nghiệp mạnh chưa chắc tài chính bền.",
+    "source": "phan-1-menh-cong-viec-tien-bac.html",
+    "kind": "phân tích Mệnh–Quan–Tài"
+   },
+   "Phu Thê": {
+    "text": "Phu Thê vô chính diệu tại Dậu, chịu đồng thời Kình Dương hãm, Địa Không hãm và Tuần. Đây là một trong những cấu trúc có lời luận cổ nặng về bất hòa, lạnh nhạt và ly tán; Đào Hoa, Nguyệt Đức chỉ tăng duyên và hỗ trợ, không xóa đi bộ sát. Phúc Đức trong tam hợp lại có Đồng–Cự hãm, Kiếp và Hóa Kỵ, nên không thể kết luận hôn nhân thuận.",
+    "source": "phan-2-tinh-duyen-gia-dinh.html",
+    "kind": "phân tích gia đạo và quan hệ"
+   },
+   "Phúc Đức": {
+    "text": "Thiên Đồng–Cự Môn cùng hãm tại Sửu, gặp Địa Kiếp hãm và Hóa Kỵ: sách đặt nặng phiền não, tranh luận, áp lực tinh thần và khó hưởng sự an nhàn. Thiên Đức, Thiên Việt có ý nghĩa giải trợ nhưng không làm cấu trúc trở thành phúc cung tốt; đây cũng là tam hợp của Phu Thê.",
+    "source": "phan-2-tinh-duyen-gia-dinh.html",
+    "kind": "phân tích gia đạo và quan hệ"
+   },
+   "Phụ Mẫu": {
+    "text": "Tham Lang hãm tại Tý, có Thiên Riêu, Thiên Y: tượng gia đình có cá tính, cách sống và kỳ vọng không hoàn toàn đồng nhất. Theo sách, Tham Lang hãm ít thuận hơn các phúc tinh khi đóng Phụ; chưa đủ cơ sở để kết luận người thân có biến cố cụ thể.",
+    "source": "phan-2-tinh-duyen-gia-dinh.html",
+    "kind": "phân tích gia đạo và quan hệ"
+   },
+   "Huynh Đệ": {
+    "text": "Liêm Trinh miếu và Thiên Phủ tại Tuất cho thấy trong anh chị em có thể có người thực tế, có nguyên tắc và sẵn sàng giúp tổ chức công việc. Tuy nhiên Thiên Hư, Địa Võng khiến một số giai đoạn có hiểu lầm hoặc trách nhiệm khó nói hết với nhau.",
+    "source": "phan-2-tinh-duyen-gia-dinh.html",
+    "kind": "phân tích gia đạo và quan hệ"
+   },
+   "Tử Tức": {
+    "text": "Phá Quân hãm tại Thân gặp Tuần, Linh Tinh hãm và Thiên Hình là tổ hợp sách luận rất nghiêm về sự đối nghịch quan điểm giữa cha mẹ và con cái. Lộc Tồn, Long Trì là các yếu tố tốt, nhưng không nên vì đó mà bỏ qua Phá hãm và sát; lời luận cổ không phải dự đoán về sinh sản.",
+    "source": "phan-2-tinh-duyen-gia-dinh.html",
+    "kind": "phân tích gia đạo và quan hệ"
+   },
+   "Nô Bộc": {
+    "text": "Thất Sát hãm tại Thìn gặp Hỏa Tinh đắc: cộng sự quyết liệt nhưng dễ có va chạm quyền quyết định. Quốc Ấn, Hoa Cái, Phong Cáo cho thấy vẫn có người giỏi hoặc có chức trách; nên phân biệt cộng sự mạnh chuyên môn với cộng sự dễ làm việc lâu dài.",
+    "source": "phan-2-tinh-duyen-gia-dinh.html",
+    "kind": "phân tích gia đạo và quan hệ"
+   },
+   "Tật Ách": {
+    "text": "Tử Vi miếu tại Tật có thêm Giải Thần, Thiên Phúc, Thiên Giải và Địa Giải, nên trong sách đây là nền có nhiều yếu tố cứu giải, thường gắn với hệ tiêu hóa/tỳ vị. Triệt án Tật là điểm cản; tuy nhiên không có bộ Không–Kiếp hay Hỏa–Linh trực tiếp. Vì vậy nếu đối chiếu một biến cố bệnh rất nặng lúc bé, phải nói đây không phải cung Tật báo hung mạnh nhất theo các sao tọa thủ.",
+    "source": "phan-3-suc-khoe-thien-di-dien-trach-dai-han.html",
+    "kind": "phân tích Tật–Di–Điền"
+   },
+   "Thiên Di": {
+    "text": "Thiên Cơ vượng tại Di nhấn mạnh đi xa, đổi môi trường và khả năng dùng kỹ nghệ, tư duy, nghề chuyên môn để phát triển. Nhưng Đại Hao, Thiên Không, Kiếp Sát và Cô Thần làm chi phí và sự bất ổn nổi bật: chuyển nơi sống/làm việc có thể vất vả, không phải cứ xuất ngoại là phát tài.",
+    "source": "phan-3-suc-khoe-thien-di-dien-trach-dai-han.html",
+    "kind": "phân tích Tật–Di–Điền"
+   },
+   "Điền Trạch": {
+    "text": "Vũ Khúc vượng cùng Thiên Tướng miếu, Hóa Quyền và Thiên Mã tại Điền: có ý nghĩa tốt về tự xây dựng, quản lý tài sản và thay đổi chỗ ở theo công việc. Sách mô tả Vũ–Tướng ở Dần/Thân theo hướng trước khó, sau tạo lập. Thiên Khốc là điểm trừ liên quan áp lực, nên không luận gia sản tự động tăng.",
+    "source": "phan-3-suc-khoe-thien-di-dien-trach-dai-han.html",
+    "kind": "phân tích Tật–Di–Điền"
+   }
+  },
+  "Mão": {
+   "Mệnh": {
+    "text": "Liêm Trinh miếu và Thiên Phủ tại Tuất thiên về quản trị, nề nếp, cẩn thận với nguồn lực. Thiên Hư tại Mệnh tăng nét lo toan hoặc dễ thất vọng khi kết quả khác dự định. Thân cư Thiên Di nhấn mạnh cơ hội và thử thách đến từ môi trường bên ngoài.",
+    "source": "phan-1-menh-cong-viec-tien-bac.html",
+    "kind": "phân tích Mệnh–Quan–Tài"
+   },
+   "Quan Lộc": {
+    "text": "Quan Lộc Vũ Khúc vượng–Thiên Tướng miếu, Hóa Quyền tại Dần, có Thiên Mã: hợp việc tổ chức, tài chính, kỹ thuật, điều hành và đi xa vì công việc. Tuy vậy có Địa Kiếp và Thiên Khốc: cần nói rõ sách cổ cảnh báo biến động, hao tổn hoặc một lần thất bại lớn, không chỉ ca ngợi quyền lực.",
+    "source": "phan-1-menh-cong-viec-tien-bac.html",
+    "kind": "phân tích Mệnh–Quan–Tài"
+   },
+   "Tài Bạch": {
+    "text": "Tài Bạch Tử Vi miếu tại Ngọ nhưng bị Triệt. Tử Vi là sao có ý nghĩa quản lý tiền và nguồn lực, tuy nhiên Triệt là lực cản trực tiếp; không thể kết luận tiền đến đều hay dễ có tài sản lớn. Con đường sự nghiệp có thể sáng hơn tốc độ tích lũy.",
+    "source": "phan-1-menh-cong-viec-tien-bac.html",
+    "kind": "phân tích Mệnh–Quan–Tài"
+   },
+   "Phu Thê": {
+    "text": "Phá Quân hãm đóng Thân, đồng cung Địa Không đắc, Thiên Hình và gặp Tuần; đây là cung Phu bị sách xếp vào nhóm khó giữ hòa khí, nhiều thay đổi, có lời cảnh báo ly tán. Lộc Tồn và Thiên Quý hỗ trợ về điều kiện vật chất hoặc trợ lực, nhưng không làm ý nghĩa Phá Quân hãm mất đi.",
+    "source": "phan-2-tinh-duyen-gia-dinh.html",
+    "kind": "phân tích gia đạo và quan hệ"
+   },
+   "Phúc Đức": {
+    "text": "Tham Lang hãm tại Tý cùng Thiên Riêu, Thiên Y gợi đời sống tinh thần dễ bị chi phối bởi ham muốn trải nghiệm, quan hệ hoặc cảm giác thiếu thỏa mãn. Sách đặt Tham Lang hãm ở Phúc thấp hơn phúc tinh; cần xét cung Phu và Di trong tam hợp vì đây là nguồn áp lực liên hệ.",
+    "source": "phan-2-tinh-duyen-gia-dinh.html",
+    "kind": "phân tích gia đạo và quan hệ"
+   },
+   "Phụ Mẫu": {
+    "text": "Thái Âm miếu tại Hợi có Hữu Bật, Bát Tọa, Hồng Loan, Hóa Khoa theo hệ A: đây là điểm sáng rõ về hình tượng được chăm lo, học hành và đỡ đầu từ người lớn. Nhưng hệ B biến Hóa Khoa thành Hóa Kỵ tại chính cung này, nên phải để kết luận ở mức ‘chính tinh tốt, Tứ Hóa còn tùy trường phái’.",
+    "source": "phan-2-tinh-duyen-gia-dinh.html",
+    "kind": "phân tích gia đạo và quan hệ"
+   },
+   "Huynh Đệ": {
+    "text": "Huynh Đệ vô chính diệu gặp Kình Dương hãm và Tuần tại Dậu: lời luận về quan hệ anh chị em nghiêng về ít trợ lực, dễ va chạm, xa cách giai đoạn nào đó. Nguyệt Đức, Đào Hoa và Thai Phụ làm giảm bớt sự khô cứng; cần xem Nô Bộc xung chiếu có Nhật–Lương vượng, Hóa Lộc là điểm bù.",
+    "source": "phan-2-tinh-duyen-gia-dinh.html",
+    "kind": "phân tích gia đạo và quan hệ"
+   },
+   "Tử Tức": {
+    "text": "Tử Tức vô chính diệu tại Mùi, có Đà La đắc, Linh Tinh hãm nhưng Văn Xương–Văn Khúc cùng đắc, Thiên Khôi và Triệt. Có dấu hiệu tốt về học hành và tài năng trong hình tượng hậu bối, xen với trở ngại hoặc khác biệt thế hệ; không dùng bộ sao này để xác định số con.",
+    "source": "phan-2-tinh-duyen-gia-dinh.html",
+    "kind": "phân tích gia đạo và quan hệ"
+   },
+   "Nô Bộc": {
+    "text": "Thái Dương–Thiên Lương cùng vượng tại Mão, thêm Hóa Lộc, Tả Phù và Tam Thai: đây là một trong những cung Nô sáng của 13 giờ, gợi quý nhân có nghề, người lớn tuổi hoặc tổ chức hỗ trợ. Tuy nhiên, vẫn cần tách quan hệ công việc tốt với bảo đảm không có tranh chấp.",
+    "source": "phan-2-tinh-duyen-gia-dinh.html",
+    "kind": "phân tích gia đạo và quan hệ"
+   },
+   "Tật Ách": {
+    "text": "Thiên Cơ vượng ở Tật liên hệ gan, thần kinh, giấc ngủ và tứ chi; đi cùng Hỏa Tinh, Thiên Không, Kiếp Sát và Đại Hao nên sách tăng cảnh báo về bệnh hoặc tai ách có tính đột ngột. Thiên Hỷ là điểm sáng. Đây là một trong các phương án có nhiều sao bất lợi tại Tật, nhưng không suy ra bệnh lồng ruột cụ thể hay xác suất mắc bệnh.",
+    "source": "phan-3-suc-khoe-thien-di-dien-trach-dai-han.html",
+    "kind": "phân tích Tật–Di–Điền"
+   },
+   "Thiên Di": {
+    "text": "Thiên Di có Thất Sát hãm, Quốc Ấn, Thiên La, Hoa Cái; Thân lại cư Thiên Di. Cách luận thiên về ra ngoài phải tự lập, chịu cạnh tranh, trách nhiệm lớn và khó hưởng sự hỗ trợ vô điều kiện. Có thể hợp môi trường có kỷ luật nhưng ít mang ý nghĩa nhàn hạ; không có căn cứ nói bắt buộc phải xuất ngoại.",
+    "source": "phan-3-suc-khoe-thien-di-dien-trach-dai-han.html",
+    "kind": "phân tích Tật–Di–Điền"
+   },
+   "Điền Trạch": {
+    "text": "Thiên Đồng–Cự Môn cùng hãm ở Điền, có Hóa Kỵ theo hệ A, Quả Tú, Phá Toái: sách coi là dấu hiệu bất lợi về ổn định chỗ ở, dễ tranh luận hoặc thay đổi kế hoạch tài sản. Thiên Đức, Thiên Việt hỗ trợ. Hệ B chuyển Kỵ thành Khoa nhưng không thay đổi độ sáng hai chính tinh.",
+    "source": "phan-3-suc-khoe-thien-di-dien-trach-dai-han.html",
+    "kind": "phân tích Tật–Di–Điền"
+   }
+  },
+  "Thìn": {
+   "Mệnh": {
+    "text": "Mệnh Vũ Khúc đắc–Thất Sát hãm tại Dậu, Hóa Quyền, Kình Dương và Tuần: thực tế, mạnh về mục tiêu và chịu áp lực, nhưng dễ cứng rắn hoặc chọn phương án nhiều rủi ro. Thân cư Tài Bạch làm trọng tâm đời sống nghiêng về tiền và trách nhiệm vật chất.",
+    "source": "phan-1-menh-cong-viec-tien-bac.html",
+    "kind": "phân tích Mệnh–Quan–Tài"
+   },
+   "Quan Lộc": {
+    "text": "Quan Lộc Tử Vi đắc–Phá Quân vượng tại Sửu: có ý nghĩa tổ chức và tái cấu trúc; phù hợp công việc cải tổ, dự án thay đổi, xử lý vấn đề khó. Bộ Phá Quân cũng tượng công danh lên xuống và không thích một lộ trình quá cố định.",
+    "source": "phan-1-menh-cong-viec-tien-bac.html",
+    "kind": "phân tích Mệnh–Quan–Tài"
+   },
+   "Tài Bạch": {
+    "text": "Tài Bạch Liêm Trinh–Tham Lang hãm tại Tỵ, Đại Hao và Thiên Không: dấu hiệu xấu khá rõ về khả năng giữ tiền, dễ bị hao do mở rộng, tiêu phí hoặc kỳ vọng không thành. Đừng lấy Mệnh Vũ Khúc và Thân cư Tài để suy ra chắc chắn giàu.",
+    "source": "phan-1-menh-cong-viec-tien-bac.html",
+    "kind": "phân tích Mệnh–Quan–Tài"
+   },
+   "Phu Thê": {
+    "text": "Thiên Tướng đắc tại Mùi vốn được sách đánh giá thuận về trách nhiệm, nhưng gặp Đà La đắc, Địa Không hãm và Triệt. Do đó cung Phu không thể gọi tốt chỉ vì Thiên Tướng; các yếu tố cản trở, thiếu hòa khí và thay đổi kế hoạch cưới hỏi phải được nhắc rõ. Thiên Khôi là điểm hỗ trợ.",
+    "source": "phan-2-tinh-duyen-gia-dinh.html",
+    "kind": "phân tích gia đạo và quan hệ"
+   },
+   "Phúc Đức": {
+    "text": "Phúc Đức vô chính diệu tại Hợi có Hữu Bật, Bát Tọa, Hồng Loan, Thiên Quan; có các cát tinh trợ lực nhưng không có chính tinh để định cục. Đối cung và tam hợp cần xét thêm, nhất là Thân cư Tài Bạch có thể làm đời sống tinh thần xoay quanh kết quả tài chính.",
+    "source": "phan-2-tinh-duyen-gia-dinh.html",
+    "kind": "phân tích gia đạo và quan hệ"
+   },
+   "Phụ Mẫu": {
+    "text": "Thái Dương hãm tại Tuất có Hóa Lộc, Thiên Hư, Địa Võng: một mặt có hình tượng bề trên tạo cơ hội hoặc coi trọng thành tựu, mặt khác khó chia sẻ cảm xúc hoặc có sự bận tâm, kỳ vọng. Không thể suy từ Thái Dương hãm thành biến cố cha mẹ.",
+    "source": "phan-2-tinh-duyen-gia-dinh.html",
+    "kind": "phân tích gia đạo và quan hệ"
+   },
+   "Huynh Đệ": {
+    "text": "Thiên Đồng miếu, Thiên Lương vượng tại Thân với Lộc Tồn nhưng gặp Tuần, Thiên Hình và Hóa Kỵ theo hệ A. Cung Huynh có nền tảng tình nghĩa nhưng lời luận về bất đồng, sự xa cách vì trách nhiệm cũng rõ; nếu theo hệ B Thiên Đồng Hóa Khoa thì mức cảnh báo từ Hóa Kỵ thay đổi.",
+    "source": "phan-2-tinh-duyen-gia-dinh.html",
+    "kind": "phân tích gia đạo và quan hệ"
+   },
+   "Tử Tức": {
+    "text": "Cự Môn vượng ở Ngọ đồng cung Hỏa–Linh đắc, lại có Triệt; thế hệ sau được mô tả có khẩu tài, tính phản biện mạnh, nhưng quan hệ có thể nhiều lời qua lại và khó hướng dẫn bằng mệnh lệnh. Bộ Phượng Các, Giải Thần, Thiên Phúc làm cách luận có phần trợ lực.",
+    "source": "phan-2-tinh-duyen-gia-dinh.html",
+    "kind": "phân tích gia đạo và quan hệ"
+   },
+   "Nô Bộc": {
+    "text": "Nô Bộc vô chính diệu tại Dần gặp Thiên Khốc, Thiên Mã, Thiên Trù: mạng lưới cộng sự có thể hình thành qua đi xa hoặc thay đổi nơi làm việc, nhưng thiếu một chính tinh để kết luận ổn định. Đối cung Huynh Đồng–Lương nhiều sao tốt và Kỵ là nơi phải đọc tiếp.",
+    "source": "phan-2-tinh-duyen-gia-dinh.html",
+    "kind": "phân tích gia đạo và quan hệ"
+   },
+   "Tật Ách": {
+    "text": "Thái Âm hãm đóng Tật, sách liên hệ vùng bụng, lưng, thận và đường tiết niệu. Theo hệ A có Hóa Khoa, hệ B là Hóa Kỵ, nên mức cát–hung phụ thuộc lựa chọn an Hóa. Cung có Thiên La nhưng không thấy Không–Kiếp, Kình–Đà, Hỏa–Linh trực tiếp; cần tránh diễn giải quá nặng chỉ vì một sao hãm.",
+    "source": "phan-3-suc-khoe-thien-di-dien-trach-dai-han.html",
+    "kind": "phân tích Tật–Di–Điền"
+   },
+   "Thiên Di": {
+    "text": "Thiên Phủ ở Di, có Tả Phù và Tam Thai gợi khả năng gặp cộng sự, người nâng đỡ khi ở ngoài. Nhưng Địa Kiếp hãm cùng cung làm tăng khả năng thay đổi, thất thoát hoặc đứt đoạn cơ hội theo sách. Thân cư Tài Bạch khiến quyết định đi lại dễ gắn mục tiêu kiếm tiền, nhưng không thể nói chắc đã đi xa.",
+    "source": "phan-3-suc-khoe-thien-di-dien-trach-dai-han.html",
+    "kind": "phân tích Tật–Di–Điền"
+   },
+   "Điền Trạch": {
+    "text": "Thiên Cơ đắc ở Điền gắn với đổi nhà, sửa chữa, cải tạo hoặc môi trường sống thay đổi theo nghề. Không phải cách đứng yên tích lũy giống Thiên Phủ. Có Thiên Y, Thiên Riêu, nên yếu tố sinh hoạt và sự tiện nghi nổi lên; nếu hỏi người thật, các mốc chuyển nhà có giá trị phân biệt hơn câu thích nhà đẹp.",
+    "source": "phan-3-suc-khoe-thien-di-dien-trach-dai-han.html",
+    "kind": "phân tích Tật–Di–Điền"
+   }
+  },
+  "Tỵ": {
+   "Mệnh": {
+    "text": "Thiên Đồng miếu–Thiên Lương vượng ở Thân có Lộc Tồn, nhưng đồng thời Hóa Kỵ, Thiên Hình và Tuần. Một bên là nhu cầu hòa khí, nghề có chuẩn mực và sự hỗ trợ; bên kia là trở ngại, áp lực, ràng buộc. Thân cư Phu Thê làm quan hệ hôn nhân/hợp tác có ảnh hưởng rõ tới đường sống.",
+    "source": "phan-1-menh-cong-viec-tien-bac.html",
+    "kind": "phân tích Mệnh–Quan–Tài"
+   },
+   "Quan Lộc": {
+    "text": "Quan Lộc Thiên Cơ đắc tại Tý: hợp việc phân tích, kỹ thuật, vận hành, lập kế hoạch và nghề có đổi mới. Tuy nhiên Thiên Cơ là sao chủ động, nên sách thường luận biến đổi nghề hoặc làm nhiều việc; khó coi là cách tuyệt đối ổn định.",
+    "source": "phan-1-menh-cong-viec-tien-bac.html",
+    "kind": "phân tích Mệnh–Quan–Tài"
+   },
+   "Tài Bạch": {
+    "text": "Tài Bạch Thái Âm hãm tại Thìn kèm Hóa Khoa nhưng có Địa Kiếp. Có thể kiếm tiền từ hiểu biết và công việc tỉ mỉ, nhưng tài tinh hãm + Kiếp là cảnh báo hao, thất thoát hoặc tích lũy bị gián đoạn. Hóa Khoa không đủ để xóa Địa Kiếp.",
+    "source": "phan-1-menh-cong-viec-tien-bac.html",
+    "kind": "phân tích Mệnh–Quan–Tài"
+   },
+   "Phu Thê": {
+    "text": "Cự Môn vượng tại Ngọ nhưng có Địa Không hãm và Triệt: sách liên hệ Cự Môn ở Phu với khẩu thiệt, nghi kỵ và bất đồng; Không và Triệt làm nguy cơ đứt quãng cao hơn. Các sao Giải Thần, Thiên Phúc, Thiên Giải, Địa Giải là yếu tố hỗ trợ, không phải bảo đảm hóa giải hết.",
+    "source": "phan-2-tinh-duyen-gia-dinh.html",
+    "kind": "phân tích gia đạo và quan hệ"
+   },
+   "Phúc Đức": {
+    "text": "Thái Dương hãm tại Tuất được Hóa Lộc nhưng gặp Thiên Hư: có thể tìm động lực từ hoạt động bên ngoài và thành tựu, song khó an tâm khi mọi thứ chưa như ý. Vì Thân cư Phu Thê, nên hôn nhân và hợp tác lâu dài là tâm điểm tác động đến trạng thái tinh thần theo cách luận cổ.",
+    "source": "phan-2-tinh-duyen-gia-dinh.html",
+    "kind": "phân tích gia đạo và quan hệ"
+   },
+   "Phụ Mẫu": {
+    "text": "Vũ Khúc đắc, Thất Sát hãm tại Dậu, gặp Kình Dương hãm, Tuần nhưng có Hóa Quyền: hình tượng bề trên nghiêm, mạnh quyền quyết định và yêu cầu tự lập. Đây là một cung Phụ có cảnh báo khá rõ về khác biệt, khoảng cách và xung đột nguyên tắc, dù vẫn có các sao hỗ trợ.",
+    "source": "phan-2-tinh-duyen-gia-dinh.html",
+    "kind": "phân tích gia đạo và quan hệ"
+   },
+   "Huynh Đệ": {
+    "text": "Thiên Tướng đắc ở Mùi, thêm Thiên Khôi, Phong Cáo; nhưng có Đà La đắc, Hỏa Tinh hãm và Triệt. Quan hệ anh chị em có người trách nhiệm, có năng lực nhưng dễ va chạm ở việc phân chia trách nhiệm và cách làm, không nên ép chung mọi quyết định.",
+    "source": "phan-2-tinh-duyen-gia-dinh.html",
+    "kind": "phân tích gia đạo và quan hệ"
+   },
+   "Tử Tức": {
+    "text": "Liêm Trinh–Tham Lang cùng hãm tại Tỵ, thêm Thiên Không, Kiếp Sát, Linh Tinh đắc, Cô Thần và Văn Xương đắc. Sách luận bộ Liêm–Tham tại Tử Tức khá nặng về bất đồng và khác biệt tính cách; Xương cho điểm học tập nhưng không xóa cách cục khó.",
+    "source": "phan-2-tinh-duyen-gia-dinh.html",
+    "kind": "phân tích gia đạo và quan hệ"
+   },
+   "Nô Bộc": {
+    "text": "Tử Vi đắc, Phá Quân vượng tại Sửu có Thiên Đức, Thiên Việt nhưng cũng Quả Tú, Phá Toái: dễ quen người có năng lực, quyết đoán, đôi khi muốn làm theo lối riêng. Hợp tác có thể đạt hiệu quả khi quy định rõ quyền quyết định và cách chia lợi ích.",
+    "source": "phan-2-tinh-duyen-gia-dinh.html",
+    "kind": "phân tích gia đạo và quan hệ"
+   },
+   "Tật Ách": {
+    "text": "Thiên Phủ tại Tật, có Tả Phù và Tam Thai, không có bộ Kình–Đà, Hỏa–Linh, Không–Kiếp hay Kỵ trực tiếp. Đây là một trong các cung Tật nhẹ theo sách; Phủ gắn tiêu hóa, dạ dày và cơ thịt. Nếu thực tế có biến cố bệnh đường ruột nguy kịch ở tuổi rất nhỏ, riêng cấu trúc Tật này không phải dấu hiệu cảnh báo mạnh, nhưng cũng không thể vì thế loại hẳn giờ.",
+    "source": "phan-3-suc-khoe-thien-di-dien-trach-dai-han.html",
+    "kind": "phân tích Tật–Di–Điền"
+   },
+   "Thiên Di": {
+    "text": "Thiên Di vô chính diệu tại Dần, có Thiên Mã, Thiên Khốc, Thiên Trù: tượng chuyển môi trường, làm việc xa nhà hoặc đi lại, xen nỗi lo khi di chuyển. Đối cung Mệnh có Thiên Đồng–Thiên Lương nên phải mượn chính tinh chiếu để luận. Không thể suy VCD = chắc không ra nước ngoài.",
+    "source": "phan-3-suc-khoe-thien-di-dien-trach-dai-han.html",
+    "kind": "phân tích Tật–Di–Điền"
+   },
+   "Điền Trạch": {
+    "text": "Điền Trạch vô chính diệu nhưng có Hữu Bật, Bát Tọa, Hồng Loan, Thiên Quan và Thai Phụ: có thể được người thân hoặc mạng lưới giúp chuyện nhà cửa. Song thiếu chính tinh nên phải xét đối cung, không có căn cứ để kết luận chắc tích sản. Tốt nhất đối chiếu việc gia đình hỗ trợ chỗ ở hay tự chủ.",
+    "source": "phan-3-suc-khoe-thien-di-dien-trach-dai-han.html",
+    "kind": "phân tích Tật–Di–Điền"
+   }
+  },
+  "Ngọ": {
+   "Mệnh": {
+    "text": "Thiên Đồng–Cự Môn đều hãm tại Mùi, Hóa Kỵ, Đà La, lại gặp Triệt. Đây là một trong các cung Mệnh nhiều dấu trừ nhất: theo lời cổ dễ vướng thị phi, tâm lý giằng co, định hướng khó thông ngay. Không nên đổi thành câu chung 'giỏi giao tiếp'. Thân cư Mệnh càng làm rõ sự cần thiết của tự điều chỉnh.",
+    "source": "phan-1-menh-cong-viec-tien-bac.html",
+    "kind": "phân tích Mệnh–Quan–Tài"
+   },
+   "Quan Lộc": {
+    "text": "Quan Lộc Thiên Cơ hãm tại Hợi có Tiểu Hao và Hữu Bật. Nghề dựa vào kỹ năng và giải quyết vấn đề có thể phù hợp, nhưng Thiên Cơ hãm + Hao cho ý nghĩa nghề dễ đổi, hao sức hoặc thiếu ổn định; Hữu Bật chỉ là một yếu tố hỗ trợ.",
+    "source": "phan-1-menh-cong-viec-tien-bac.html",
+    "kind": "phân tích Mệnh–Quan–Tài"
+   },
+   "Tài Bạch": {
+    "text": "Tài Bạch vô chính diệu tại Mão, có Tả Phù, không trực tiếp bị Tuần–Triệt. Không thể chỉ vì có cát phụ tinh mà nói Tài tốt: phải xét đối cung và tam hợp; đặc biệt Mệnh/Quan đều có nhiều dấu bất lợi nên ưu thế tích lũy không nổi bật.",
+    "source": "phan-1-menh-cong-viec-tien-bac.html",
+    "kind": "phân tích Mệnh–Quan–Tài"
+   },
+   "Phu Thê": {
+    "text": "Thái Âm hãm tại Tỵ, dù có Hóa Khoa theo hệ A và Thiên Hỷ, vẫn gặp Thiên Không, Không–Kiếp đắc, Kiếp Sát, Cô Thần: đây là cách cát–hung rất lệch, không thể dùng Hóa Khoa để khẳng định vợ đẹp, hôn nhân tốt. Nếu dùng hệ B Thái Âm thành Hóa Kỵ, lời luận về bất hòa còn nặng hơn.",
+    "source": "phan-2-tinh-duyen-gia-dinh.html",
+    "kind": "phân tích gia đạo và quan hệ"
+   },
+   "Phúc Đức": {
+    "text": "Thái Dương–Thiên Lương cùng hãm tại Dậu, Kình Dương hãm, Tuần, dù có Hóa Lộc và Nguyệt Đức. Sách xem đây là phúc cung khó an nhàn; các mặt thuận về danh, Lộc không che được Kình hãm và hãm địa của hai chính tinh.",
+    "source": "phan-2-tinh-duyen-gia-dinh.html",
+    "kind": "phân tích gia đạo và quan hệ"
+   },
+   "Phụ Mẫu": {
+    "text": "Vũ Khúc vượng–Thiên Tướng miếu tại Thân, có Lộc Tồn, Hóa Quyền nhưng bị Tuần và Hỏa Tinh hãm, Thiên Hình. Có hình tượng gia đình coi trọng công việc và kỷ luật, hỗ trợ vật chất có thể có, nhưng kỳ vọng và mâu thuẫn quyền quyết định không nhỏ.",
+    "source": "phan-2-tinh-duyen-gia-dinh.html",
+    "kind": "phân tích gia đạo và quan hệ"
+   },
+   "Huynh Đệ": {
+    "text": "Tham Lang hãm tại Ngọ gặp Triệt, song có Phượng Các, Giải Thần, Thiên Phúc, Thiên Giải, Địa Giải. Anh chị em có thể rất khác sở thích và cách giao tiếp; Triệt và Tham hãm không cho phép luận trơn tru dù có nhiều giải tinh.",
+    "source": "phan-2-tinh-duyen-gia-dinh.html",
+    "kind": "phân tích gia đạo và quan hệ"
+   },
+   "Tử Tức": {
+    "text": "Liêm Trinh miếu–Thiên Phủ tại Thìn, có Quốc Ấn, Hoa Cái nhưng đồng cung Linh Tinh đắc, Văn Xương hãm. Về mặt cách cục, nền tảng trách nhiệm và tổ chức tốt hơn một số giờ khác, song quan hệ với hậu bối vẫn có thể gặp áp lực thành tích và cá tính cứng.",
+    "source": "phan-2-tinh-duyen-gia-dinh.html",
+    "kind": "phân tích gia đạo và quan hệ"
+   },
+   "Nô Bộc": {
+    "text": "Tử Vi bình hòa tại Tý có Thiên Riêu, Thiên Y và Thai Phụ: có khả năng làm việc với người thích tổ chức, định hướng. Không thấy bộ Không–Kiếp hoặc Hóa Kỵ trực tiếp ở Nô như vài giờ khác, nhưng cung này vẫn phải đối chiếu Huynh và Quan trước khi kết luận hỗ trợ bền.",
+    "source": "phan-2-tinh-duyen-gia-dinh.html",
+    "kind": "phân tích gia đạo và quan hệ"
+   },
+   "Tật Ách": {
+    "text": "Phá Quân hãm ở Tật Ách là sao sách liên hệ ngoại thương, da, tiết niệu và các biến cố khiến phải thay đổi nếp sinh hoạt. Thiên Khốc và Thiên Mã làm tăng ý nghĩa bôn ba, nhưng không có Không–Kiếp/Kình–Đà trực tiếp; không đủ căn cứ coi là nhất định bệnh nặng. Với bệnh ruột từ trẻ nhỏ, Phá Quân không phải ký hiệu đặc hiệu của lồng ruột.",
+    "source": "phan-3-suc-khoe-thien-di-dien-trach-dai-han.html",
+    "kind": "phân tích Tật–Di–Điền"
+   },
+   "Thiên Di": {
+    "text": "Thiên Di vô chính diệu tại Sửu với Thiên Đức, Thiên Việt, Đường Phù nhưng có Quả Tú, Phá Toái. Có yếu tố hỗ trợ xen cảm giác tự xoay xở, kế hoạch di chuyển đứt đoạn. Mệnh xung chiếu là Đồng–Cự hãm nên giao tiếp khi ra ngoài có thể mất công, không thể mặc định sẽ thành công ở xa.",
+    "source": "phan-3-suc-khoe-thien-di-dien-trach-dai-han.html",
+    "kind": "phân tích Tật–Di–Điền"
+   },
+   "Điền Trạch": {
+    "text": "Thất Sát hãm ở Điền, có Thiên Hư, Địa Võng: sách không xem đây là kiểu dễ giữ tổ nghiệp hoặc có nơi ở ổn định từ sớm. Thiên về tự lập, sửa đổi hoặc chịu ràng buộc nơi ở; Văn Khúc đắc hỗ trợ mặt học hỏi và giấy tờ. Không phải bằng chứng người này không thể sở hữu nhà.",
+    "source": "phan-3-suc-khoe-thien-di-dien-trach-dai-han.html",
+    "kind": "phân tích Tật–Di–Điền"
+   }
+  },
+  "Mùi": {
+   "Mệnh": {
+    "text": "Tham Lang hãm tại Ngọ gặp Triệt và Địa Kiếp: hiếu kỳ, có ham muốn cơ hội và xã giao nhưng gặp lực cản, dễ thử rồi phải làm lại. Thân cư Phúc Đức đặt trọng tâm lên trải nghiệm nội tâm và môi trường gia đình, không đơn giản chỉ về hưởng thụ.",
+    "source": "phan-1-menh-cong-viec-tien-bac.html",
+    "kind": "phân tích Mệnh–Quan–Tài"
+   },
+   "Quan Lộc": {
+    "text": "Quan Lộc Thất Sát hãm tại Tuất kèm Thiên Hư: sự nghiệp theo hình tượng cạnh tranh, tự quyết và xử lý việc khó, nhưng sách luận nặng về biến động, công sức hao và giai đoạn thất vọng. Không nên tô thành 'hợp làm lãnh đạo' mà bỏ qua vị trí hãm.",
+    "source": "phan-1-menh-cong-viec-tien-bac.html",
+    "kind": "phân tích Mệnh–Quan–Tài"
+   },
+   "Tài Bạch": {
+    "text": "Tài Bạch Phá Quân hãm tại Dần, có Thiên Khốc và Thiên Mã. Đây là bộ tiền bạc thiên dịch chuyển, tái cơ cấu và khó giữ nguyên trạng; hãm + Khốc làm độ bền tài chính kém theo lời luận cổ. Cần tránh quyết định quá mạo hiểm chỉ vì kỳ vọng bứt phá.",
+    "source": "phan-1-menh-cong-viec-tien-bac.html",
+    "kind": "phân tích Mệnh–Quan–Tài"
+   },
+   "Phu Thê": {
+    "text": "Liêm Trinh miếu và Thiên Phủ đóng Thìn, có Địa Không hãm và Thiên La: người phối ngẫu có thể giỏi quán xuyến, trọng nguyên tắc, nhưng sách luận bộ Liêm–Phủ tại Phu không hoàn toàn êm và gặp sát tinh thì bất hòa nặng. Quốc Ấn, Hoa Cái tăng hình tượng trách nhiệm, không phải cờ bảo đảm hôn nhân.",
+    "source": "phan-2-tinh-duyen-gia-dinh.html",
+    "kind": "phân tích gia đạo và quan hệ"
+   },
+   "Phúc Đức": {
+    "text": "Vũ Khúc vượng–Thiên Tướng miếu ở Thân, Lộc Tồn và Hóa Quyền: có điểm khá tốt về nền tảng gia đình và năng lực tự xoay xở. Nhưng có Tuần, Thiên Hình, nên khó coi là hưởng phúc nhẹ nhàng; đặc biệt Thân cư Phúc Đức làm những vấn đề này thành chủ đề nổi bật.",
+    "source": "phan-2-tinh-duyen-gia-dinh.html",
+    "kind": "phân tích gia đạo và quan hệ"
+   },
+   "Phụ Mẫu": {
+    "text": "Thiên Đồng–Cự Môn cùng hãm tại Mùi, Hóa Kỵ theo hệ A, Đà La đắc và Triệt: đây là một trong những cung Phụ có lời luận cổ nặng nhất trong 13 phương án về xa cách, bất đồng và khó được nâng đỡ như mong đợi. Thiên Khôi có trợ lực nhưng không cân bằng toàn bộ; hệ B đổi Kỵ thành Khoa nên phải đọc cả dị bản.",
+    "source": "phan-2-tinh-duyen-gia-dinh.html",
+    "kind": "phân tích gia đạo và quan hệ"
+   },
+   "Huynh Đệ": {
+    "text": "Thái Âm hãm tại Tỵ với Thiên Không, Cô Thần, Kiếp Sát, song có Thiên Hỷ, Hóa Khoa theo hệ A. Cách luận nghiêng về khoảng cách, anh chị em mỗi người lo chuyện riêng; dị bản B biến Hóa Khoa thành Hóa Kỵ nên không thể tô đậm cái tốt của Khoa như điều bất biến.",
+    "source": "phan-2-tinh-duyen-gia-dinh.html",
+    "kind": "phân tích gia đạo và quan hệ"
+   },
+   "Tử Tức": {
+    "text": "Tử Tức vô chính diệu tại Mão nhưng có Tả Phù, Văn Xương đắc, Tam Thai, Linh Tinh đắc. Đây là cấu trúc pha giữa điểm học hành, người trợ giúp và áp lực tính cách. Cần xem đối cung và tam hợp, không suy rằng VCD là không có con.",
+    "source": "phan-2-tinh-duyen-gia-dinh.html",
+    "kind": "phân tích gia đạo và quan hệ"
+   },
+   "Nô Bộc": {
+    "text": "Thiên Cơ hãm ở Hợi có Hữu Bật, Văn Khúc đắc, Hồng Loan, Bát Tọa: có thể tìm được người trao đổi chuyên môn, song Cơ hãm dễ thay đổi nhóm, kế hoạch hoặc người hợp tác. Cần xem Huynh Thái Âm hãm xung chiếu trước khi luận được trợ lực.",
+    "source": "phan-2-tinh-duyen-gia-dinh.html",
+    "kind": "phân tích gia đạo và quan hệ"
+   },
+   "Tật Ách": {
+    "text": "Tật vô chính diệu tại Sửu, có Thiên Đức, Thiên Việt, Thai Phụ nhưng cũng Quả Tú, Phá Toái. Đây không phải cung Tật có hung tinh mạnh tọa thủ như Mão, cũng không có chính tinh để gắn bệnh cụ thể. Phải xét đối cung và Mệnh–Thân mới luận được mức ảnh hưởng; VCD không có nghĩa bệnh vô phương.",
+    "source": "phan-3-suc-khoe-thien-di-dien-trach-dai-han.html",
+    "kind": "phân tích Tật–Di–Điền"
+   },
+   "Thiên Di": {
+    "text": "Tử Vi bình hòa ở Thiên Di cho khả năng làm việc với tổ chức, người có vị thế hoặc được chú ý khi ra ngoài. Thiên Quý, Thiên Thọ là sao trợ; Bạch Hổ là điểm cần xét khi giao tiếp và đối đầu. Vì chỉ bình hòa nên không thể nâng thành cách ra nước ngoài đại phát. Không có sao buộc phải di cư.",
+    "source": "phan-3-suc-khoe-thien-di-dien-trach-dai-han.html",
+    "kind": "phân tích Tật–Di–Điền"
+   },
+   "Điền Trạch": {
+    "text": "Nhật–Lương đều hãm ở Điền, thêm Kình Dương hãm, Hỏa Tinh hãm, Tuần: sách coi là nền điền sản nhiều trở ngại, có thể thiếu ổn định hoặc tranh cãi. Hóa Lộc và Nguyệt Đức là điểm hỗ trợ nhưng không xóa hết bộ hãm sát. Đây là một trong các cung Điền bất lợi hơn khi so tương đối.",
+    "source": "phan-3-suc-khoe-thien-di-dien-trach-dai-han.html",
+    "kind": "phân tích Tật–Di–Điền"
+   }
+  },
+  "Thân": {
+   "Mệnh": {
+    "text": "Tử Vi miếu–Thất Sát vượng tại Tỵ: hình tượng có tham vọng tổ chức, chịu trách nhiệm, dám quyết định. Nhưng Đại Hao và Thiên Không ngay tại Mệnh làm rõ nguy cơ bỏ nhiều nguồn lực cho kế hoạch lớn hoặc kết quả đảo chiều. Thân cư Quan Lộc khiến thành tựu nghề thành trọng tâm.",
+    "source": "phan-1-menh-cong-viec-tien-bac.html",
+    "kind": "phân tích Mệnh–Quan–Tài"
+   },
+   "Quan Lộc": {
+    "text": "Quan Lộc Liêm Trinh–Phá Quân đều hãm tại Dậu, gặp Tuần và Kình Dương. Bộ sao thiên cải tổ, đối đầu quy tắc và đổi hướng mạnh; kết hợp Kình–Tuần được sách cổ nhìn nhận không thuận sự nghiệp bằng phẳng, có thể có bước đứt đoạn đáng kể.",
+    "source": "phan-1-menh-cong-viec-tien-bac.html",
+    "kind": "phân tích Mệnh–Quan–Tài"
+   },
+   "Tài Bạch": {
+    "text": "Tài Bạch Vũ Khúc–Tham Lang đều miếu tại Sửu, có Hóa Quyền. Đây là tổ hợp nổi bật về khả năng tạo tiền qua quản trị, đầu tư hay thương mại; nhưng phải đặt bên cạnh Mệnh Hao–Không và Quan Kình–Tuần. Kiếm tiền tốt và giữ tiền bền là hai câu hỏi khác nhau.",
+    "source": "phan-1-menh-cong-viec-tien-bac.html",
+    "kind": "phân tích Mệnh–Quan–Tài"
+   },
+   "Phu Thê": {
+    "text": "Thiên Tướng hãm tại Mão, Địa Không hãm nhưng có Tả Phù, Tam Thai. Hình tượng người phối ngẫu trọng trách nhiệm vẫn còn, nhưng sách nhấn mạnh Thiên Tướng hãm hội sát tinh thì thiếu hòa khí, không thể dùng các sao phụ tốt để kết luận cung Phu thuận. Tam hợp Phúc Đức VCD có Kiếp và Triệt lại là điểm trừ.",
+    "source": "phan-2-tinh-duyen-gia-dinh.html",
+    "kind": "phân tích gia đạo và quan hệ"
+   },
+   "Phúc Đức": {
+    "text": "Vô chính diệu tại Mùi, gặp Đà La đắc, Địa Kiếp hãm và Triệt: đây là một trong những cung Phúc có nhiều cảnh báo khó an lòng, thay đổi hoặc gánh nặng, thiếu chính tinh giữ nền. Thiên Khôi giúp chút trợ lực. Dù Thân cư Quan Lộc, thành tựu nghề nghiệp không tự động sửa được mặt Phúc.",
+    "source": "phan-2-tinh-duyen-gia-dinh.html",
+    "kind": "phân tích gia đạo và quan hệ"
+   },
+   "Phụ Mẫu": {
+    "text": "Cung Phụ Mẫu vô chính diệu tại Ngọ, có Triệt nhưng cùng Phượng Các, Giải Thần, Thiên Phúc, Thiên Giải, Địa Giải. Có thể có sự trợ giúp về thủ tục hoặc lúc khó khăn, song quan hệ với người lớn dễ trải qua thay đổi hoặc khoảng cách; cần đọc đối cung.",
+    "source": "phan-2-tinh-duyen-gia-dinh.html",
+    "kind": "phân tích gia đạo và quan hệ"
+   },
+   "Huynh Đệ": {
+    "text": "Thiên Cơ–Thiên Lương cùng miếu tại Thìn, Quốc Ấn, Hoa Cái: anh chị em được luận có trí tuệ, nguyên tắc, có thể hỗ trợ định hướng. Đây là một điểm tương đối đẹp so với cung Nô xung chiếu vô chính diệu, Hỏa Tinh hãm và Thiên Hư.",
+    "source": "phan-2-tinh-duyen-gia-dinh.html",
+    "kind": "phân tích gia đạo và quan hệ"
+   },
+   "Tử Tức": {
+    "text": "Thái Dương–Cự Môn đều vượng ở Dần, có Hóa Lộc, Thiên Mã, nhưng Linh Tinh đắc, Thiên Khốc và Văn Xương hãm. Cách luận ghi nhận hậu bối có khẩu tài, tham vọng, nhiều khả năng đi xa; mặt trái là mâu thuẫn trong giao tiếp, áp lực thành tựu hoặc xa cách giai đoạn nào đó.",
+    "source": "phan-2-tinh-duyen-gia-dinh.html",
+    "kind": "phân tích gia đạo và quan hệ"
+   },
+   "Nô Bộc": {
+    "text": "Vô chính diệu tại Tuất, Hỏa Tinh hãm, Thiên Hư: cung Nô ít sao bảo trợ rõ và nhiều tượng mâu thuẫn, cộng sự không dễ ổn định. Đối cung Huynh Cơ–Lương miếu lại sáng, nên có thể khác biệt rất lớn giữa quan hệ gia đình và người hợp tác ngoài xã hội.",
+    "source": "phan-2-tinh-duyen-gia-dinh.html",
+    "kind": "phân tích gia đạo và quan hệ"
+   },
+   "Tật Ách": {
+    "text": "Thiên Đồng và Thái Âm đều vượng tại Tật, sách liên hệ tiêu hóa, khí huyết, tiết niệu và vùng lưng. Hai cách Tứ Hóa đều đặt một Hóa Khoa và một Hóa Kỵ vào cung này, chỉ đổi sao chịu Kỵ. Vì vậy không được tính là cung Tật thuần cát, nhưng cũng không có Không–Kiếp, Kình–Đà trực tiếp để phóng đại hung họa.",
+    "source": "phan-3-suc-khoe-thien-di-dien-trach-dai-han.html",
+    "kind": "phân tích Tật–Di–Điền"
+   },
+   "Thiên Di": {
+    "text": "Thiên Phủ ở Thiên Di, có Hữu Bật, Bát Tọa, Thiên Quan, Hồng Loan, Long Đức: bộ tương đối thuận về gặp người giúp, quan hệ công việc và khả năng thích nghi bên ngoài. Tiểu Hao cho thấy vẫn có chi phí. Thân cư Quan Lộc, nên khi chuyển môi trường, chủ đề sự nghiệp được nhấn mạnh rõ.",
+    "source": "phan-3-suc-khoe-thien-di-dien-trach-dai-han.html",
+    "kind": "phân tích Tật–Di–Điền"
+   },
+   "Điền Trạch": {
+    "text": "Điền vô chính diệu tại Thân nhưng có Lộc Tồn, Long Trì, lại gặp Tuần, Thiên Hình, Lưu Hà. Cách này có yếu tố giữ nguồn lực nhưng vướng trì hoãn, thủ tục, ràng buộc nhà đất; không được vì Lộc Tồn mà gọi nhiều nhà. Đối cung Cơ–Lương cần được dùng để xét bản chất điền sản.",
+    "source": "phan-3-suc-khoe-thien-di-dien-trach-dai-han.html",
+    "kind": "phân tích Tật–Di–Điền"
+   }
+  },
+  "Dậu": {
+   "Mệnh": {
+    "text": "Thiên Cơ–Thiên Lương đều miếu tại Thìn: hình tượng giỏi suy luận, lập kế hoạch, chú trọng trách nhiệm, thích hướng nghề có ý nghĩa. Thân cư Thiên Di nhấn mạnh học hỏi từ môi trường mới và cơ hội qua hoạt động bên ngoài.",
+    "source": "phan-1-menh-cong-viec-tien-bac.html",
+    "kind": "phân tích Mệnh–Quan–Tài"
+   },
+   "Quan Lộc": {
+    "text": "Quan Lộc vô chính diệu ở Thân, gặp Tuần, Địa Kiếp, Thiên Hình, dù có Lộc Tồn. Đây là cấu trúc nghề nhiều yếu tố chống đối trực tiếp; phải xét đối cung thay vì dùng Mệnh sáng để kết luận Quan tốt. Có thể cần xây dựng nghề theo đường vòng và tránh chủ quan về ổn định.",
+    "source": "phan-1-menh-cong-viec-tien-bac.html",
+    "kind": "phân tích Mệnh–Quan–Tài"
+   },
+   "Tài Bạch": {
+    "text": "Tài Bạch Thiên Đồng–Thái Âm đều vượng tại Tý, cùng xuất hiện Hóa Khoa và Hóa Kỵ tại một cung. Đây không phải lỗi: hai sao đồng cung nhận các hóa khác nhau theo năm Canh. Một bên học thức/tích lũy, bên kia là cản trở trực tiếp trong lĩnh vực tiền bạc; không thể chỉ chọn nghĩa tốt.",
+    "source": "phan-1-menh-cong-viec-tien-bac.html",
+    "kind": "phân tích Mệnh–Quan–Tài"
+   },
+   "Phu Thê": {
+    "text": "Thái Dương–Cự Môn đều vượng tại Dần, thêm Hóa Lộc và Thiên Mã, nhưng Địa Không đắc và Thiên Khốc. Có điểm tốt về người phối ngẫu chủ động, có năng lực, có cơ hội qua đi xa; tuy nhiên bộ Nhật–Cự vốn dễ khẩu thiệt, Không/Khốc cho trở ngại. Không thể suy từ Hóa Lộc rằng hôn nhân tự nhiên bền.",
+    "source": "phan-2-tinh-duyen-gia-dinh.html",
+    "kind": "phân tích gia đạo và quan hệ"
+   },
+   "Phúc Đức": {
+    "text": "Vô chính diệu tại Ngọ, có Triệt và bộ Phượng Các, Giải Thần, Thiên Phúc, Thiên Giải, Địa Giải. Hình tượng có cách được giúp khi khó khăn nhưng đời sống tinh thần chưa có chính tinh làm nền, Triệt còn tạo cảm giác chậm hoặc gián đoạn; nên xem đối cung.",
+    "source": "phan-2-tinh-duyen-gia-dinh.html",
+    "kind": "phân tích gia đạo và quan hệ"
+   },
+   "Phụ Mẫu": {
+    "text": "Tử Vi miếu–Thất Sát vượng tại Tỵ, kèm Thiên Không, Kiếp Sát và Cô Thần, Thiên Hỷ. Cấu trúc bề trên mạnh, có quyền quyết định nhưng dễ tạo khoảng cách, khó mềm dẻo; đây là ví dụ chính tinh sáng không đồng nghĩa quan hệ gia đình luôn êm.",
+    "source": "phan-2-tinh-duyen-gia-dinh.html",
+    "kind": "phân tích gia đạo và quan hệ"
+   },
+   "Huynh Đệ": {
+    "text": "Thiên Tướng hãm tại Mão, có Tả Phù, Tam Thai: có người muốn giúp đỡ hoặc giữ hòa khí nhưng sự ổn định không mạnh bằng Thiên Tướng miếu. Đối cung Nô Liêm–Phá hãm với Kình Dương, Tuần cho thấy quan hệ bạn bè ngoài xã hội có thể chứa các va chạm rõ hơn.",
+    "source": "phan-2-tinh-duyen-gia-dinh.html",
+    "kind": "phân tích gia đạo và quan hệ"
+   },
+   "Tử Tức": {
+    "text": "Vũ Khúc–Tham Lang cùng miếu tại Sửu, thêm Văn Xương–Văn Khúc đắc và Hóa Quyền, là điểm tốt về khả năng hoạt động, học hỏi, thích thành tựu. Nhưng Linh Tinh hãm, Quả Tú, Phá Toái là yếu tố cần trừ, và sách luận Vũ–Tham Tử Tức có bất lợi về hòa khí; không xếp tự động là cung con cái hoàn hảo.",
+    "source": "phan-2-tinh-duyen-gia-dinh.html",
+    "kind": "phân tích gia đạo và quan hệ"
+   },
+   "Nô Bộc": {
+    "text": "Liêm Trinh–Phá Quân cùng hãm tại Dậu, thêm Kình Dương hãm, Tuần, Đào Hoa và Nguyệt Đức. Đây là một trong những cung Nô cần cảnh giác nhất về quan hệ hợp tác: có sức hút/giao tiếp nhưng dễ phát sinh xung đột quyền lợi, thay đổi nhóm hoặc hiểu lầm.",
+    "source": "phan-2-tinh-duyen-gia-dinh.html",
+    "kind": "phân tích gia đạo và quan hệ"
+   },
+   "Tật Ách": {
+    "text": "Thiên Phủ ở Tật có Hữu Bật, Bát Tọa, Thiên Quan và Long Đức là điểm thuận trong sách, thiên về cơ thịt và tiêu hóa. Nhưng Hỏa Tinh hãm, Tiểu Hao khiến cung này kém thuần tốt hơn giờ Tỵ. Nếu có biến cố bệnh nặng trong thực tế, Hỏa hãm là một điểm để ghi nhận khi nghiên cứu, song không thể chỉ từ đó xác định giờ.",
+    "source": "phan-3-suc-khoe-thien-di-dien-trach-dai-han.html",
+    "kind": "phân tích Tật–Di–Điền"
+   },
+   "Thiên Di": {
+    "text": "Thiên Di vô chính diệu, có Tuế Phá, Thiên Hư, Địa Võng; Thân cư Thiên Di làm chủ đề bên ngoài quan trọng nhưng thiếu chính tinh giữ nền. Có thể có trở ngại về thủ tục, môi trường hoặc quan hệ khi ra ngoài. Mệnh đối cung Cơ–Lương là nền cần xét, không suy từ VCD rằng chắc chắn không xuất ngoại.",
+    "source": "phan-3-suc-khoe-thien-di-dien-trach-dai-han.html",
+    "kind": "phân tích Tật–Di–Điền"
+   },
+   "Điền Trạch": {
+    "text": "Điền vô chính diệu tại Mùi, gặp Triệt và Đà La, có Thiên Khôi. Sách gắn Triệt, Đà với trở ngại hoặc chậm trễ trong tạo lập chỗ ở, nhưng Khôi là sao hỗ trợ. Đối cung Cơ–Lương được chiếu về, vì vậy không thể coi đây là người không có điền sản, mà nên kiểm tra lịch sử nơi ở và giấy tờ.",
+    "source": "phan-3-suc-khoe-thien-di-dien-trach-dai-han.html",
+    "kind": "phân tích Tật–Di–Điền"
+   }
+  },
+  "Tuất": {
+   "Mệnh": {
+    "text": "Thái Dương–Thiên Lương đều vượng tại Mão, có Hóa Lộc và Tả Phù: tượng người coi trọng uy tín, công việc có ích, giỏi truyền đạt hoặc dẫn dắt. Tuy nhiên Thân cư Tài Bạch cho thấy kết quả vật chất là trọng tâm, cần xét riêng cung Quan có cản trở.",
+    "source": "phan-1-menh-cong-viec-tien-bac.html",
+    "kind": "phân tích Mệnh–Quan–Tài"
+   },
+   "Quan Lộc": {
+    "text": "Quan Lộc vô chính diệu tại Mùi, bị Triệt và Đà La. Đây là điểm xấu lớn về con đường công danh ổn định: dễ phải đi đường vòng, đổi vai trò hoặc gặp trở ngại khi thăng tiến. Không thể kết luận 'sự nghiệp mạnh' chỉ vì Mệnh có Dương–Lương sáng.",
+    "source": "phan-1-menh-cong-viec-tien-bac.html",
+    "kind": "phân tích Mệnh–Quan–Tài"
+   },
+   "Tài Bạch": {
+    "text": "Tài Bạch Thái Âm miếu tại Hợi, Hóa Khoa, Hữu Bật và Tiểu Hao. Đây là cung Tài tương đối sáng về năng lực tích lũy, quản lý tài sản, tiền từ chuyên môn; Tiểu Hao báo khoản chi đều hoặc hao nhỏ. Cần phân biệt tiền do tự quản và nghề nghiệp có Triệt.",
+    "source": "phan-1-menh-cong-viec-tien-bac.html",
+    "kind": "phân tích Mệnh–Quan–Tài"
+   },
+   "Phu Thê": {
+    "text": "Thiên Đồng–Cự Môn đều hãm tại Sửu, thêm Địa Không hãm, Quả Tú, Phá Toái và Hóa Kỵ theo hệ A: đây là cách sách cổ có lời luận rất nặng về khẩu thiệt, thiếu hòa khí và ly tán. Thiên Đức, Thiên Việt là phần cát cứu nhưng không thể đổi cả bộ thành đẹp. Hệ B đổi Hóa Kỵ tại đây thành Hóa Khoa, nên mức độ bất lợi giữa hai phép an khác nhau đáng kể.",
+    "source": "phan-2-tinh-duyen-gia-dinh.html",
+    "kind": "phân tích gia đạo và quan hệ"
+   },
+   "Phúc Đức": {
+    "text": "Thiên Cơ vượng tại Tỵ nhưng có Thiên Không, Cô Thần, Kiếp Sát. Sách xem Thiên Cơ ở Phúc dễ suy nghĩ, thiếu an nhàn; các sao này càng làm mạnh tính bất an. Cung này còn là tam hợp Phu Thê nên phải tính vào cách luận hôn nhân.",
+    "source": "phan-2-tinh-duyen-gia-dinh.html",
+    "kind": "phân tích gia đạo và quan hệ"
+   },
+   "Phụ Mẫu": {
+    "text": "Thất Sát hãm tại Thìn, Quốc Ấn, Hoa Cái: hình tượng trưởng bối cứng, có quyền uy hoặc trách nhiệm nhưng ít nhường nhịn. Thất Sát hãm không đẹp như khi miếu, vì vậy cần nói rõ nguy cơ xa cách và mâu thuẫn, không suy thành người thân có tai họa cụ thể.",
+    "source": "phan-2-tinh-duyen-gia-dinh.html",
+    "kind": "phân tích gia đạo và quan hệ"
+   },
+   "Huynh Đệ": {
+    "text": "Vũ Khúc vượng–Thiên Tướng miếu ở Dần, có Hóa Quyền và Thiên Mã, nhưng Thiên Khốc, Văn Khúc hãm. Anh chị em có thể tự lập, giỏi chuyên môn, có người đi xa; tuy có thể hỗ trợ khi cần, khác biệt công việc/địa lý khiến quan hệ khó gần gũi thường xuyên.",
+    "source": "phan-2-tinh-duyen-gia-dinh.html",
+    "kind": "phân tích gia đạo và quan hệ"
+   },
+   "Tử Tức": {
+    "text": "Tham Lang hãm tại Tý, thêm Hỏa–Linh đều hãm, Văn Xương hãm và Thiên Riêu. Trong sách cổ đây là tổ hợp bất lợi về tính khí và xung khắc quan điểm với thế hệ sau; phải nói thẳng mức cảnh báo, không biến thành khẳng định bệnh hoặc vô sinh.",
+    "source": "phan-2-tinh-duyen-gia-dinh.html",
+    "kind": "phân tích gia đạo và quan hệ"
+   },
+   "Nô Bộc": {
+    "text": "Phá Quân hãm tại Thân, Tuần, Thiên Hình dù có Lộc Tồn: dễ gặp cộng sự nhanh nhạy nhưng thay đổi phương án, khó thống nhất cách hành động. Lộc Tồn hỗ trợ về nguồn lực nhưng không che được sự bất ổn do Phá hãm và Tuần.",
+    "source": "phan-2-tinh-duyen-gia-dinh.html",
+    "kind": "phân tích gia đạo và quan hệ"
+   },
+   "Tật Ách": {
+    "text": "Liêm Trinh miếu và Thiên Phủ tại Tật là bộ vừa mang tính áp lực thần kinh, tim, mắt (Liêm) vừa có khả năng bảo trợ tiêu hóa/cơ thịt (Phủ). Thiên Hư, Địa Võng thêm nét vướng bận, nhưng không có Kình–Đà/Không–Kiếp tọa thủ, nên đây không phải cấu trúc Tật hung nhất theo sao trực tiếp.",
+    "source": "phan-3-suc-khoe-thien-di-dien-trach-dai-han.html",
+    "kind": "phân tích Tật–Di–Điền"
+   },
+   "Thiên Di": {
+    "text": "Thiên Di vô chính diệu lại có Kình Dương hãm, Địa Kiếp hãm và Tuần. Sách cảnh báo mạnh về va chạm, kế hoạch đi xa bị cản, quan hệ bên ngoài dễ gặp phiền phức. Nguyệt Đức, Đào Hoa có nét hỗ trợ/giao tiếp, nhưng không xóa Kình–Kiếp. Cần nhìn thêm Mệnh đối cung Thái Dương–Thiên Lương.",
+    "source": "phan-3-suc-khoe-thien-di-dien-trach-dai-han.html",
+    "kind": "phân tích Tật–Di–Điền"
+   },
+   "Điền Trạch": {
+    "text": "Tử Vi miếu tại Điền là chính tinh tốt về sắp xếp nguồn lực, thêm nhiều sao Giải; nhưng Triệt trực tiếp án cung khiến tạo lập, thay đổi chỗ ở hoặc thủ tục có thể chậm, phải sửa kế hoạch. Không thể suy chỉ từ Tử Vi miếu rằng nhà đất chắc thịnh vượng, cũng không nên bỏ qua cát tinh vì Triệt.",
+    "source": "phan-3-suc-khoe-thien-di-dien-trach-dai-han.html",
+    "kind": "phân tích Tật–Di–Điền"
+   }
+  },
+  "Hợi": {
+   "Mệnh": {
+    "text": "Vũ Khúc vượng–Thiên Tướng miếu tại Dần, Hóa Quyền, Thiên Mã và Thiên Khốc. Tượng tính kỷ luật, muốn tự quản lý công việc, hợp làm việc có tiêu chuẩn rõ; mặt trái là cứng và áp lực. Thân cư Phu Thê nên lựa chọn nghề/tài chính về sau có thể chịu ảnh hưởng từ quan hệ gia đình.",
+    "source": "phan-1-menh-cong-viec-tien-bac.html",
+    "kind": "phân tích Mệnh–Quan–Tài"
+   },
+   "Quan Lộc": {
+    "text": "Quan Lộc Tử Vi miếu tại Ngọ nhưng gặp Triệt. Tử Vi là sao mạnh về quản trị và vị thế, song Triệt làm sự nghiệp dễ gặp chặn bước, cần đổi hướng hoặc thành tựu chậm hơn năng lực. Không nên nói công danh luôn thuận.",
+    "source": "phan-1-menh-cong-viec-tien-bac.html",
+    "kind": "phân tích Mệnh–Quan–Tài"
+   },
+   "Tài Bạch": {
+    "text": "Tài Bạch Liêm Trinh miếu–Thiên Phủ ở Tuất, có Địa Kiếp và Thiên Hư. Thiên Phủ thuận quản lý/tích lũy, nhưng Kiếp–Hư là điểm trừ mạnh về khoản tiền hoặc tài sản không giữ nguyên kỳ vọng. Không phải cách tích sản thuần tốt.",
+    "source": "phan-1-menh-cong-viec-tien-bac.html",
+    "kind": "phân tích Mệnh–Quan–Tài"
+   },
+   "Phu Thê": {
+    "text": "Tham Lang hãm tại Tý gặp Địa Không hãm và Thiên Riêu; lại **Thân cư Phu Thê** nên chủ đề hôn nhân nổi bật hơn các giờ khác theo cách luận cổ. Sách xếp Tham Lang hãm có sát tinh vào nhóm nguy cơ ly tán/quan hệ phức tạp, không nên chỉ luận là vợ quyến rũ, đào hoa.",
+    "source": "phan-2-tinh-duyen-gia-dinh.html",
+    "kind": "phân tích gia đạo và quan hệ"
+   },
+   "Phúc Đức": {
+    "text": "Thất Sát hãm tại Thìn, Thiên La, Quốc Ấn, Hoa Cái: đời sống tinh thần có thể đặt nặng tự quyết, kỷ luật, việc lớn nên khó thảnh thơi. Thiên Quý và Thiên Thọ có ý nghĩa trợ lực, nhưng nền Phúc vẫn là Thất Sát hãm.",
+    "source": "phan-2-tinh-duyen-gia-dinh.html",
+    "kind": "phân tích gia đạo và quan hệ"
+   },
+   "Phụ Mẫu": {
+    "text": "Thái Dương–Thiên Lương cùng vượng ở Mão, Hóa Lộc, Tả Phù, Văn Khúc đắc, Tam Thai: đây là một trong những cung Phụ sáng rõ của 13 giờ, có hình tượng người lớn nâng đỡ việc học và công việc. Không nên coi đó là lời hứa về tài sản thừa kế hay cha mẹ luôn đồng quan điểm.",
+    "source": "phan-2-tinh-duyen-gia-dinh.html",
+    "kind": "phân tích gia đạo và quan hệ"
+   },
+   "Huynh Đệ": {
+    "text": "Thiên Đồng–Cự Môn cùng hãm tại Sửu, thêm Hỏa Tinh hãm, Hóa Kỵ theo hệ A, Quả Tú và Phá Toái. Đây là cung Huynh dễ xuất hiện hiểu lầm, khẩu thiệt và khoảng cách theo sách cổ, rất khác cung Phụ Mẫu tốt; hệ B đổi Thiên Đồng thành Hóa Khoa nên phải xét dị bản.",
+    "source": "phan-2-tinh-duyen-gia-dinh.html",
+    "kind": "phân tích gia đạo và quan hệ"
+   },
+   "Tử Tức": {
+    "text": "Thái Âm miếu ở Hợi, Văn Xương đắc, Hữu Bật, Bát Tọa, Hồng Loan và Hóa Khoa theo hệ A tạo một trong những cấu trúc thuận về học tập, tình cảm với hậu bối. Nhưng Linh Tinh hãm vẫn là điểm trừ; hệ B biến Hóa Khoa thành Hóa Kỵ ở chính cung này nên lời luận thay đổi lớn.",
+    "source": "phan-2-tinh-duyen-gia-dinh.html",
+    "kind": "phân tích gia đạo và quan hệ"
+   },
+   "Nô Bộc": {
+    "text": "Vô chính diệu tại Mùi, Đà La đắc, Triệt nhưng có Thiên Khôi: hợp tác bên ngoài dễ bị chậm, cần thương lượng rõ trách nhiệm. Cung Huynh xung chiếu có Đồng–Cự hãm, Hóa Kỵ theo hệ A nên không thể lấy một Thiên Khôi để kết luận được bạn bè trợ giúp.",
+    "source": "phan-2-tinh-duyen-gia-dinh.html",
+    "kind": "phân tích gia đạo và quan hệ"
+   },
+   "Tật Ách": {
+    "text": "Tật vô chính diệu tại Dậu, Kình Dương hãm và Tuần án cung. Sách xem Kình hãm là dấu hiệu xấu về thương tích, nhưng VCD bắt buộc xem chính tinh đối cung và Mệnh–Thân; không thể kết luận bệnh cụ thể. Nguyệt Đức là sao hỗ trợ, Đào Hoa không thay đổi bản chất sát tinh.",
+    "source": "phan-3-suc-khoe-thien-di-dien-trach-dai-han.html",
+    "kind": "phân tích Tật–Di–Điền"
+   },
+   "Thiên Di": {
+    "text": "Phá Quân hãm tại Di có Lộc Tồn nhưng bị Tuần và thêm Thiên Hình, Lưu Hà: sách gắn Phá Quân với biến động nghề nghiệp, chuyển nơi sống, đi lại không ổn định. Có thể có lợi ích vật chất xen với trở ngại hoặc hao; không phải cách đi xa nhàn nhã. Thân cư Phu làm chuyện quan hệ có thể tương tác với việc đi xa.",
+    "source": "phan-3-suc-khoe-thien-di-dien-trach-dai-han.html",
+    "kind": "phân tích Tật–Di–Điền"
+   },
+   "Điền Trạch": {
+    "text": "Thiên Cơ vượng ở Điền gợi thay đổi nơi ở và sửa chữa, nhưng gặp Đại Hao, Thiên Không, Kiếp Sát, Cô Thần nên sách có nhiều lời cảnh báo về hao tán nhà đất, khó giữ kế hoạch sở hữu. Thiên Hỷ, Thai Phụ hỗ trợ phần nào; không nên gọi đây là nền tích sản bền theo bố cục sao trực tiếp.",
+    "source": "phan-3-suc-khoe-thien-di-dien-trach-dai-han.html",
+    "kind": "phân tích Tật–Di–Điền"
+   }
+  },
+  "Tý muộn": {
+   "Mệnh": {
+    "text": "Mệnh vô chính diệu tại Sửu, Thân cư Mệnh: phải xem đối cung và tam hợp trước khi luận. Không nên mặc định yếu kém hoặc đặc biệt linh hoạt chỉ vì không có chính tinh. Đây là lá số an theo 26 tháng Chạp, khác rõ Tý đầu ngày an theo ngày 25.",
+    "source": "phan-1-menh-cong-viec-tien-bac.html",
+    "kind": "phân tích Mệnh–Quan–Tài"
+   },
+   "Quan Lộc": {
+    "text": "Quan Lộc Thiên Đồng đắc tại Tỵ, có Hóa Kỵ, Đại Hao và Thiên Không. Sách cổ thiên hướng nghề dịch vụ, linh hoạt hơn quản lý cứng; Kỵ–Hao–Không làm đường nghề có khả năng chậm, phải điều chỉnh nhiều, dễ vỡ kỳ vọng.",
+    "source": "phan-1-menh-cong-viec-tien-bac.html",
+    "kind": "phân tích Mệnh–Quan–Tài"
+   },
+   "Tài Bạch": {
+    "text": "Tài Bạch Thiên Cơ–Cự Môn đều miếu tại Dậu nhưng gặp Tuần và Kình Dương. Bộ Cơ–Cự có thể tạo tiền bằng phân tích, giao tiếp, cạnh tranh, nhưng sách nêu rõ thành bại và dòng tiền biến động; Kình–Tuần khiến khả năng tích lũy bị cản.",
+    "source": "phan-1-menh-cong-viec-tien-bac.html",
+    "kind": "phân tích Mệnh–Quan–Tài"
+   },
+   "Phu Thê": {
+    "text": "Thiên Lương hãm tại Hợi gặp cả Địa Không–Địa Kiếp đắc, nhưng có Hồng Loan, Hữu Bật, Thiên Quan: hình tượng phối ngẫu trưởng thành, tình cảm có trợ lực, song sách cảnh báo Không Kiếp làm quan hệ xa cách hoặc nguội lạnh. Không nên áp nguyên vẹn lời luận tốt dành cho Thiên Lương miếu.",
+    "source": "phan-2-tinh-duyen-gia-dinh.html",
+    "kind": "phân tích gia đạo và quan hệ"
+   },
+   "Phúc Đức": {
+    "text": "Phúc Đức vô chính diệu tại Mão có Tả Phù, cần xét đối cung và tam hợp; có người giúp nhưng không đủ căn cứ gọi là nền phúc mạnh. Vì cung Phu có Không Kiếp, nên phần hỗ trợ của Phúc không thể tự động làm hôn nhân ổn định.",
+    "source": "phan-2-tinh-duyen-gia-dinh.html",
+    "kind": "phân tích gia đạo và quan hệ"
+   },
+   "Phụ Mẫu": {
+    "text": "Liêm Trinh vượng tại Dần, Hỏa Tinh đắc, Thiên Khốc và Thiên Mã: bề trên có nguyên tắc, công việc bận, đôi lúc nóng hoặc khác cách giải quyết vấn đề. Phong Cáo và Thiên Trù là điểm trợ; sách cổ dùng lời luận nặng về hình khắc khi Liêm gặp sát, cần xem tam hợp trước khi phán.",
+    "source": "phan-2-tinh-duyen-gia-dinh.html",
+    "kind": "phân tích gia đạo và quan hệ"
+   },
+   "Huynh Đệ": {
+    "text": "Thất Sát miếu tại Tý cùng Thiên Riêu, Thiên Y: anh chị em có xu hướng tự lập, cá tính mạnh, định hướng riêng. Dù Thất Sát miếu giúp bớt bất lợi so với hãm, đây vẫn không phải cung Huynh thiên về sự gần gũi mềm mỏng.",
+    "source": "phan-2-tinh-duyen-gia-dinh.html",
+    "kind": "phân tích gia đạo và quan hệ"
+   },
+   "Tử Tức": {
+    "text": "Tử Vi–Thiên Tướng cùng vượng tại Tuất, Văn Xương đắc, Bát Tọa, Ân Quang: cấu trúc tốt về học tập, ý thức trách nhiệm và sự nâng đỡ của hậu bối. Linh Tinh hãm, Thiên Hư và Địa Võng gây điểm trừ về áp lực hoặc bất đồng, không nên gọi hoàn hảo.",
+    "source": "phan-2-tinh-duyen-gia-dinh.html",
+    "kind": "phân tích gia đạo và quan hệ"
+   },
+   "Nô Bộc": {
+    "text": "Vũ Khúc vượng–Thiên Phủ tại Ngọ, thêm Hóa Quyền và nhiều giải tinh, cho khả năng tìm người giỏi quản trị hoặc nguồn lực tốt; song Triệt án Nô khiến hợp tác có thể bị trì hoãn hoặc phải đổi người. Phải xem Huynh Thất Sát xung chiếu để đánh giá khả năng nhượng bộ.",
+    "source": "phan-2-tinh-duyen-gia-dinh.html",
+    "kind": "phân tích gia đạo và quan hệ"
+   },
+   "Tật Ách": {
+    "text": "Tham Lang đắc ở Tật, có Lộc Tồn nhưng gặp Tuần, Thiên Hình, Lưu Hà. Sách liên hệ Tham với gan, thận, tiết niệu, sinh dục; khi có Hình/Tuần cần giữ cả lời luận bất lợi về trở ngại sức khỏe. Khác hoàn toàn Tý sớm có Đồng–Lương và Kỵ, vì vậy nếu biết giờ khoảng 23h phải tính riêng ngày an sao.",
+    "source": "phan-3-suc-khoe-thien-di-dien-trach-dai-han.html",
+    "kind": "phân tích Tật–Di–Điền"
+   },
+   "Thiên Di": {
+    "text": "Thái Dương–Thái Âm cùng đắc tại Di, có Hóa Lộc và Hóa Khoa theo hệ A, Thiên Khôi trợ lực: nền sáng về hoạt động xã hội và cơ hội bên ngoài. Nhưng Triệt và Đà La án cung, hệ B chuyển Thái Âm Khoa sang Kỵ, nên khác biệt lớn. Không thể lấy hai chính tinh sáng để khẳng định ra nước ngoài là giàu.",
+    "source": "phan-3-suc-khoe-thien-di-dien-trach-dai-han.html",
+    "kind": "phân tích Tật–Di–Điền"
+   },
+   "Điền Trạch": {
+    "text": "Phá Quân đắc tại Điền có Tam Thai, Thiên Quý, Quốc Ấn, Hoa Cái và Văn Khúc hãm. Theo sách Phá Quân là cách cải tổ, bán đổi, xây mới, không phải điền sản giữ nguyên qua nhiều đời. Các sao phụ hỗ trợ tổ chức, nhưng vẫn có khả năng biến động chỗ ở hoặc tài sản.",
+    "source": "phan-3-suc-khoe-thien-di-dien-trach-dai-han.html",
+    "kind": "phân tích Tật–Di–Điền"
+   }
+  }
+ }
+}
