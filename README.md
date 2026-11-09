@@ -5,6 +5,8 @@ Bộ công cụ so sánh giờ sinh cho **nam, sinh ngày 19/01/2001 tại Hà N
 ## Nội dung đã có trên GitHub
 
 - [index.html](./index.html): xem 13 lá số, 12 cung, chính/phụ tinh, các đại hạn và Tuần–Triệt.
+- **[Luận giải chi tiết — 13 giờ × 12 cung](./luan-giai-chi-tiet.html): trang đọc hợp nhất 156 nhận xét riêng, phân tích chính/phụ tinh, độ sáng, bộ sao, tam phương tứ chính, Tứ Hóa A/B, đại hạn và so sánh hai giờ.**
+- [Dữ liệu 156 luận giải](./luan-giai-chuyen-sau-data.json): trích hợp nhất từ ba báo cáo chuyên đề; giữ dạng JSON để có thể hiệu đính tiếp.
 - [Phần 1 — Mệnh, công việc, tiền bạc](./phan-1-menh-cong-viec-tien-bac.html): 39 nhận xét riêng cho 13 phương án.
 - [Phần 2 — Tình duyên và gia đình](./phan-2-tinh-duyen-gia-dinh.html): 78 nhận xét riêng cho 13 phương án × 6 chủ đề, kèm bảng đối chiếu các giờ theo từng chủ đề, liên hệ Phúc Đức – Thiên Di và đối cung, nhận xét cả dị bản Tứ Hóa năm Canh.
 - [Phần 3 — Sức khỏe, xuất ngoại, nhà đất và đại hạn](./phan-3-suc-khoe-thien-di-dien-trach-dai-han.html): 39 nhận xét chi tiết Tật Ách–Thiên Di–Điền Trạch, 13 phần luận đại hạn, cùng 4 bảng so sánh đủ 13 giờ.
@@ -14,7 +16,7 @@ Bộ công cụ so sánh giờ sinh cho **nam, sinh ngày 19/01/2001 tại Hà N
 - [du-lieu-laso-19012001.json](./du-lieu-laso-19012001.json): toàn bộ dữ liệu 13 lá số, dùng được cho nghiên cứu tiếp.
 - Nút chuyển **hai hệ Tứ Hóa năm Canh**; cách A: Thái Dương Lộc, Vũ Khúc Quyền, Thái Âm Khoa, Thiên Đồng Kỵ; cách B: Thái Dương Lộc, Vũ Khúc Quyền, Thiên Đồng Khoa, Thái Âm Kỵ.
 
-**Tình trạng:** phần 1–3 đã có luận chi tiết; phần 4 đã soát kỹ thuật sao và timeline theo hệ quy tắc đang dùng. Vẫn cần biên tập/soát lập luận từ sách, các khác biệt trường phái, và kiểm nghiệm lời luận trên dữ kiện đời thực; không suy mức khớp là xác suất chính xác của giờ sinh.
+**Tình trạng:** đã có trang luận giải hợp nhất 156 mục cùng bốn báo cáo chuyên đề/kỹ thuật. Phần phân tích được mở rộng với luận bộ sao, sao phụ, đối cung và tam phương, nhưng vẫn cần tiếp tục đối chiếu lời sách và các dị bản trường phái. Không suy mức khớp là xác suất đúng giờ sinh. Trang công khai không chứa dữ liệu sức khỏe, tình cảm hoặc tài chính riêng tư dùng để khoanh giờ.
 
 ## Kích hoạt đường dẫn website công khai
 
