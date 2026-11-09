@@ -1,0 +1,268 @@
+<!doctype html><html lang="vi"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Luận giải Tử Vi chuyên sâu — 13 giờ × 12 cung</title><meta name="description" content="156 mục luận giải 13 giờ sinh, 12 cung Tử Vi, bộ sao, tam phương tứ chính, hai hệ Tứ Hóa, so sánh và đại hạn."><style>
+:root{color-scheme:light;--navy:#11283b;--ink:#20394c;--sub:#657b8c;--accent:#225f83;--surface:#ffffff;--bg:#f3f7fa;--line:#d8e3eb;--soft:#eaf2f8;--good:#226d58;--bad:#9c4851;--gold:#9a732c}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.65 system-ui,-apple-system,"Segoe UI",Arial,sans-serif}
+header{background:var(--navy);color:#fff;padding:34px max(17px,calc((100vw - 1360px)/2))}header h1{font-size:clamp(25px,3.7vw,39px);letter-spacing:-.4px;line-height:1.18;margin:6px 0 11px}header p{max-width:930px;color:#d4e6ef;margin:0}.eyebrow{font-size:11px;font-weight:800;letter-spacing:1.25px;text-transform:uppercase;color:#a9c7db}
+nav{display:flex;flex-wrap:wrap;gap:9px;margin-top:20px}nav a{color:#e9f7ff;background:#24495f;border:1px solid #355e78;border-radius:7px;padding:8px 12px;font-size:12px;font-weight:700;text-decoration:none}nav a:hover{background:#32617c}
+main{max-width:1360px;padding:23px 15px 85px;margin:auto}.panel{background:var(--surface);border:1px solid var(--line);border-radius:13px;padding:22px;margin-bottom:19px;box-shadow:0 3px 15px #173d5507}
+h2{font-size:21px;letter-spacing:-.2px;color:#214e6d;margin:0 0 12px;line-height:1.35}h3{font-size:17px;color:#265576;margin:0 0 9px;line-height:1.4}h4{font-size:14px;color:#285a7b;margin:0 0 6px}p{margin:7px 0 12px}small,.muted{color:var(--sub)}a{color:var(--accent)}
+.stack{display:flex;flex-direction:column;gap:13px}.row{display:flex;align-items:center;gap:13px;flex-wrap:wrap}.split{display:grid;grid-template-columns:minmax(0,1.1fr) minmax(0,.9fr);gap:17px}
+.statgrid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:10px}.stat{border:1px solid var(--line);background:#f8fbfd;border-radius:9px;padding:12px}.stat small{font-size:10px;display:block;letter-spacing:.5px;text-transform:uppercase}.stat strong{font-size:14px;display:block;margin-top:6px}
+select,button{font:inherit}select{background:white;color:#18435d;border:1px solid #c9d9e5;border-radius:7px;padding:9px 11px;min-width:170px}button{cursor:pointer}button:focus-visible,select:focus-visible,a:focus-visible{outline:3px solid #7faacb;outline-offset:2px}
+.hours{display:flex;gap:7px;flex-wrap:wrap}.hour{background:#eaf1f7;border:1px solid #d0e1eb;color:#265b7c;font-weight:700;font-size:13px;border-radius:7px;padding:8px 10px}.hour.active{background:#1d5477;color:#fff;border-color:#1d5477}
+.controls{display:flex;align-items:center;gap:10px;flex-wrap:wrap;margin:15px 0}.controls label{font-size:13px;font-weight:700;color:#325a73}
+.toggle{display:inline-flex;gap:0;border:1px solid #c9dbe7;border-radius:8px;overflow:hidden}.toggle button{padding:9px 13px;font-size:12px;font-weight:700;background:white;color:#265677;border:none}.toggle button.active{background:#205a80;color:white}
+.note{background:#eef5fa;border-left:3px solid #7c9eb8;padding:12px 14px;border-radius:2px;font-size:13px}.warn{border-color:#b29a67;background:#fff9ec}
+.sitegrid{display:grid;grid-template-columns:minmax(0,1.04fr) minmax(0,.96fr);gap:17px}.chartScroll{overflow:auto}
+.chart{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));grid-template-rows:repeat(4,138px);gap:5px;padding:5px;background:#deebf4;border:1px solid #cddce8;border-radius:10px;min-width:610px}
+.house{border:1px solid #d5e0e8;background:white;text-align:left;padding:8px;min-width:0;overflow:hidden;display:flex;flex-direction:column;gap:4px;border-radius:5px;color:#1a405e}
+.house:hover{background:#f1f8fc}.house.active{box-shadow:inset 0 0 0 3px #2b729d;background:#e8f3fb}.house .house-head{display:flex;justify-content:space-between;align-items:center;gap:5px}.house strong{font-size:12px}.house small{font-size:10px;color:#708395}.house span{font-size:11px;line-height:1.4;font-weight:600}.house em{font-size:10px;color:#a35a62;font-style:normal}
+.center{grid-column:2/4;grid-row:2/4;background:#f3f8fc;border:1px solid #c8dce9;border-radius:5px;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:18px}.center h3{font-size:28px;margin:0}.center p{font-size:13px;color:#597a91;margin:7px 0}.center strong{font-size:12px}
+.overview{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}.overview article{border:1px solid var(--line);border-radius:9px;padding:13px;background:#fafcff}.overview h4{font-size:13px;margin:0 0 7px}.overview p{font-size:12px;margin:0;line-height:1.6}.overview a{font-size:11px;display:inline-block;margin-top:8px;font-weight:700}
+.boxLabel{font-size:11px;letter-spacing:.7px;text-transform:uppercase;color:#5d7c92;font-weight:800}
+.topicBar{display:flex;flex-wrap:wrap;gap:7px;margin:14px 0 18px}.topic{padding:8px 11px;background:#eaf1f7;border:1px solid #d1e0e9;border-radius:7px;font-size:12px;color:#265b79;font-weight:700}.topic.active{background:#225e83;color:#fff}
+.detailLead{display:grid;grid-template-columns:minmax(0,1.6fr) minmax(215px,.55fr);gap:16px}.headline{border-left:4px solid #407da1;background:#f4f9fc;border-radius:4px;padding:17px}.headline p{line-height:1.8}.taggroup{display:flex;flex-wrap:wrap;gap:6px;margin:10px 0}.tag{display:inline-flex;border-radius:5px;padding:4px 8px;background:#edf3f7;font-size:11px;color:#45667b;border:1px solid #d7e4ed;font-weight:650}.tag.good{background:#e7f4ee;color:#236c58;border-color:#cfebdc}.tag.bad{background:#fbefef;color:#93434c;border-color:#f3d9dc}.tag.amb{background:#fff5df;color:#926e2c;border-color:#efe0bc}
+.side{background:#fbfcfe;border:1px solid var(--line);border-radius:9px;padding:14px}.side ul{padding-left:17px;margin:6px 0}.side li{margin:7px 0;font-size:12px}
+.longgrid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px;margin-top:15px}.analysis{border:1px solid var(--line);border-radius:9px;padding:17px;background:#fff}.analysis p{font-size:14px;line-height:1.83}.analysis.wide{grid-column:1/-1}.evidence{font-size:12px;color:var(--sub);border-top:1px solid var(--line);padding-top:10px;margin-top:12px}
+.houseLinks{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px}.related{border:1px solid var(--line);background:#f8fbfd;border-radius:8px;padding:11px;cursor:pointer;text-align:left;color:var(--ink)}.related b{display:block;font-size:12px;color:#2b5876}.related span{font-size:11px;color:var(--sub)}
+.compareInputs{display:grid;grid-template-columns:1fr 1fr 1fr;gap:10px}.compareCards{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:15px}.compareCard{border:1px solid var(--line);background:#fafeff;border-radius:9px;padding:16px}.compareCard h3{margin-bottom:5px}.compareCard p{font-size:13px}.compareCard .s{font-size:11px;color:var(--sub);font-weight:700}.compareCard .compareThesis{border-left:3px solid #93b3c8;padding-left:11px;margin:9px 0 14px}
+.steps{display:flex;gap:8px;flex-wrap:wrap}.step{font-weight:650;background:#eef5fa;border:1px solid #d6e5ef;border-radius:6px;padding:5px 9px;font-size:12px}
+.yearline{display:grid;grid-template-columns:repeat(6,minmax(0,1fr));gap:9px}.year{border:1px solid var(--line);border-radius:8px;background:#fafcff;padding:11px}.year strong,.year span,.year small{display:block}.year strong{font-size:16px}.year span{font-size:12px;color:#2b5876}.year small{font-size:10px}
+.footer{font-size:12px;color:#657d90}
+[hidden]{display:none!important}
+@media(max-width:1120px){.sitegrid,.split{grid-template-columns:1fr}.chart{min-width:650px}.statgrid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:760px){main{padding:13px 9px 60px}.panel{padding:14px}.detailLead,.longgrid,.compareCards,.compareInputs,.overview{grid-template-columns:1fr}.analysis.wide{grid-column:auto}.houseLinks{grid-template-columns:1fr}.yearline{grid-template-columns:repeat(2,minmax(0,1fr))}.chart{min-width:620px}header{padding:27px 14px}}
+@media print{body{background:#fff}nav,.controls,.hours,.topicBar,.chartScroll,.related{display:none!important}.panel,.analysis{break-inside:avoid;box-shadow:none}.longgrid{grid-template-columns:1fr}.side{display:none}}
+</style></head><body>
+<header><div class="eyebrow">Tử Vi · Kho nghiên cứu 13 phương án</div><h1>Luận giải chuyên sâu · 12 cung, 13 giờ sinh</h1><p>Tập hợp 156 nhận xét riêng, mở rộng theo bộ sao, độ sáng, sao trợ–sát, Tuần–Triệt, đối cung, tam hợp và hai hệ Tứ Hóa năm Canh. Được thiết kế để đọc kỹ từng lá số và so sánh có căn cứ, không chỉ xem vị trí sao.</p>
+<nav><a href="./index.html">Bàn lá số gốc</a><a href="#tong-quan">Đọc tổng quan</a><a href="#chi-tiet">Luận từng cung</a><a href="#so-sanh">So sánh hai giờ</a><a href="#van-han">Đại hạn</a><a href="phan-4-kiem-dinh-cau-truc-va-nien-han.html">Phép an sao đã kiểm tra</a></nav></header>
+<main><div id="error" hidden class="panel warn"></div><div id="app" hidden>
+<section class="panel" id="tong-quan"><div class="row" style="justify-content:space-between"><h2>Chọn một trong 13 phương án</h2><div class="row"><button class="hour" id="chapterPrevious" title="Giờ trước">← Trước</button><button class="hour" id="chapterNext" title="Giờ sau">Sau →</button></div></div>
+<div class="hours" id="hours"></div><div class="controls"><label for="selectHour">Giờ sinh</label><select id="selectHour"></select><span style="font-size:12px;font-weight:700;color:#53748b">Cách an Tứ Hóa Canh</span><div class="toggle"><button type="button" id="toggleA" class="active">Hệ A · Âm Khoa</button><button type="button" id="toggleB">Hệ B · Đồng Khoa</button></div></div>
+<div class="statgrid" id="stats"></div></section>
+<section class="panel"><div class="sitegrid"><div><h2>Bàn sao · chọn cung để đọc</h2><p class="muted" style="font-size:13px">Nhấn vào từng cung. Các sao, trạng thái Tuần–Triệt và Tứ Hóa thay đổi theo giờ, dữ liệu lấy từ lá số gốc.</p><div class="chartScroll"><div class="chart" id="chart" aria-label="Lá số 12 cung"></div></div></div><div><h2>Sáu trọng điểm của phương án</h2><div class="overview" id="overview"></div></div></div></section>
+<section class="panel" id="chi-tiet"><div class="row" style="justify-content:space-between"><h2>Đọc chi tiết từng cung</h2><span class="boxLabel" id="detailLabel"></span></div><p class="muted" style="font-size:13px">Phân tích theo 5 lớp: lời luận riêng; bộ chính tinh; bộ sao phụ và sát tinh; tam phương tứ chính; dị bản Tứ Hóa và điều kiện kiểm tra.</p><div class="topicBar" id="topicBar"></div><div id="detail"></div></section>
+<section class="panel" id="so-sanh"><h2>So sánh cùng một cung giữa hai giờ sinh</h2><p>Hiển thị đồng thời hai phương án để đọc những điểm giống, khác và các thế sao có thể làm đảo chiều kết luận. Chú ý rằng lời luận có thể có nhiều điểm tương đồng vì các sao luân chuyển theo quy tắc, không vì vậy mà cả hai giờ đều đúng.</p><div class="compareInputs"><div><label for="cmpA" class="boxLabel">Giờ A</label><select style="display:block;width:100%" id="cmpA"></select></div><div><label for="cmpB" class="boxLabel">Giờ B</label><select style="display:block;width:100%" id="cmpB"></select></div><div><label for="cmpHouse" class="boxLabel">Hạng mục</label><select style="display:block;width:100%" id="cmpHouse"></select></div></div><div class="compareCards" id="compareCards"></div></section>
+<section class="panel" id="van-han"><h2>Đại hạn 10 năm · những mốc tham khảo</h2><p>Mốc tuổi mụ dưới đây chỉ áp dụng sau Tết âm lịch tương ứng; trước Tết chưa chuyển tuổi mụ. Năm sinh âm là Canh Thìn 2000. Đây là vị trí của đại hạn, không phải dự đoán rằng năm đó phải xảy ra sự kiện.</p><div class="yearline" id="years"></div><p class="muted" style="font-size:12px">Bảng đầy đủ theo các năm 2019–2026 và kết quả kiểm định vị trí sao: <a href="phan-4-kiem-dinh-cau-truc-va-nien-han.html">Phần 4 · timeline và kỹ thuật</a>.</p></section>
+<section class="panel"><h2>Nguồn và nguyên tắc giải thích</h2><p><b>Nguồn văn bản:</b> <i>Tử Vi Đại Toàn — beta version</i> (phần III.1–III.11 luận các cung vị và phần I Chính tinh), <i>Tử Vi đẩu số toàn thư</i> (Vũ Tài Lục dịch và bình chú), cùng phần trích <i>Tử Vi Thực Hành</i> có trong bộ sách được cung cấp. Mỗi mục có ghi phạm vi trang in của sách Tử Vi Đại Toàn. Các đoạn “Luận riêng” được hợp nhất từ ba báo cáo trước; các phần “Giải thích cấu trúc” là diễn giải thêm, không phải trích văn bản nguyên lời sách.</p>
+<p><b>Giới hạn:</b> Cùng một hệ thống sao có thể có nhiều trường phái an và luận khác nhau. Đặc biệt năm Canh có hai cách phân bổ Hóa Khoa/Hóa Kỵ. Tử Vi không được dùng làm căn cứ chẩn đoán bệnh, dự báo chắc chắn biến cố hoặc xác minh khoa học giờ sinh. Trang không chứa thông tin riêng tư dùng trong quá trình đối chiếu giờ sinh.</p>
+<div class="steps"><span class="step">13 phương án</span><span class="step">12 cung/phương án</span><span class="step">156 lời luận riêng</span><span class="step">Tam phương tứ chính</span><span class="step">Tứ Hóa A/B</span><span class="step">So sánh 2 giờ</span></div></section></div>
+<p class="footer">Bộ dữ liệu: <a href="./du-lieu-laso-19012001.json">13 lá số</a> · <a href="./luan-giai-chuyen-sau-data.json">156 nhận xét</a>. Dữ liệu nghiên cứu, không phải tư vấn y khoa hoặc tài chính.</p>
+</main><script>(function clientApp(){
+"use strict";
+const HOUSES=["Mệnh","Quan Lộc","Tài Bạch","Phu Thê","Phúc Đức","Phụ Mẫu","Huynh Đệ","Tử Tức","Nô Bộc","Tật Ách","Thiên Di","Điền Trạch"];
+const SOURCE={
+"Mệnh":"Tử Vi Đại Toàn, phần I: Chính tinh và nguyên tắc luận Mệnh",
+"Quan Lộc":"Tử Vi Đại Toàn, III.8, tr. 167–182",
+"Tài Bạch":"Tử Vi Đại Toàn, III.9, tr. 182–194",
+"Phu Thê":"Tử Vi Đại Toàn, III.5, tr. 137–152",
+"Phúc Đức":"Tử Vi Đại Toàn, III.4, tr. 129–137",
+"Phụ Mẫu":"Tử Vi Đại Toàn, III.2, tr. 115–123",
+"Huynh Đệ":"Tử Vi Đại Toàn, III.3, tr. 123–129",
+"Tử Tức":"Tử Vi Đại Toàn, III.7, tr. 161–167",
+"Nô Bộc":"Tử Vi Đại Toàn, III.10, tr. 194–201",
+"Tật Ách":"Tử Vi Đại Toàn, III.11, tr. 201–209",
+"Thiên Di":"Tử Vi Đại Toàn, III.1, tr. 107–115",
+"Điền Trạch":"Tử Vi Đại Toàn, III.6, tr. 152–161"};
+const LENSES={
+"Mệnh":{title:"Năng lực cốt lõi và cách vận hành cuộc sống",base:"Mệnh là gốc của bố cục. Không tách Mệnh khỏi Thân, Quan Lộc và Tài Bạch; một chính tinh mạnh ở Mệnh có thể nói về khuynh hướng cá nhân, chưa bảo đảm thành tựu nghề hay sự giàu có.",questions:"Hoàn cảnh sống và hành động tự nhiên có đi đúng khuynh hướng này không? Khi gặp khó khăn, đặc điểm nào lặp lại mà không chỉ là sở thích tự nhận?"},
+"Quan Lộc":{title:"Tính chất nghề, quyền hạn và gián đoạn sự nghiệp",base:"Quan Lộc không chỉ nói đến chức danh, mà còn phản ánh cách làm việc, quan hệ tổ chức, vận động ngành nghề và việc giữ một đường nghề. Cần tách sự thuận lợi trong nghề với số tiền thật sự giữ lại ở Tài Bạch.",questions:"Lịch sử vai trò công việc, mất việc ngoài ý muốn, thay đổi ngành, các mốc được đề bạt hoặc thất bại có thực sự phù hợp không?"},
+"Tài Bạch":{title:"Dòng tiền, nguồn thu và khả năng giữ lại",base:"Một cung Tài có tài tinh vẫn có thể bất ổn khi gặp Kỵ, Không, Kiếp, Hao hoặc Tuần–Triệt. Phải phân biệt khả năng kiếm tiền, giữ tiền, lợi nhuận lớn bất thường và khoản lỗ ngoài dự kiến.",questions:"Thu nhập tăng/giảm theo chu kỳ nào? Có khoản tổn thất hay nguồn thu bất ngờ nào ghi được bằng thời gian và nguyên nhân khách quan?"},
+"Phu Thê":{title:"Mối quan hệ dài hạn và điểm dễ mất hòa khí",base:"Cung Phu Thê không phải phép đo chắc chắn số mối tình hay khả năng ly hôn. Muốn luận hòa hợp phải xem Phúc Đức, Thiên Di cùng hội chiếu, và xét cát tinh có đủ lực giảm những sao gây tranh luận hoặc thay đổi hay không.",questions:"Trong các quan hệ thực tế, biến cố lớn do hoàn cảnh hay do lựa chọn? Năm bắt đầu/kết thúc có khớp vận hạn mà không phải suy diễn ngược không?"},
+"Phúc Đức":{title:"Đời sống nội tâm, chỗ dựa và nền tảng gia tộc",base:"Phúc Đức vừa được sách cổ liên hệ với sự an ổn tinh thần vừa là điểm nền cho Phu Thê. Có nhiều cát tinh tại Phúc không tự động xóa trở ngại tại Phu, Quan hoặc Tài.",questions:"Các giai đoạn áp lực do gia đình, kinh tế, tinh thần hoặc môi trường có trùng những mốc khách quan được ghi nhận không?"},
+"Phụ Mẫu":{title:"Cha mẹ, trưởng bối và hoàn cảnh nâng đỡ",base:"Theo sách cổ, cần phối hợp cung Phụ Mẫu với Thái Dương và Thái Âm, không dùng một sao để quy chẩn đoán hay dự đoán tai biến của cha mẹ. Cung này cũng tượng trưng cho bề trên, người có quyền ảnh hưởng.",questions:"Gia đình từng có biến cố ngoài ý muốn vào năm nào? Sự hỗ trợ và khoảng cách từ người lớn khác nhau giữa các giai đoạn ra sao?"},
+"Huynh Đệ":{title:"Anh chị em và sức bền của quan hệ ruột thịt",base:"Xét chính tinh cùng các cát–sát tọa thủ, rồi đối chiếu với Nô Bộc ở thế xung. Những lời cổ như 'xa cách' không cho biết chính xác số anh chị em hoặc chắc chắn phải sống xa.",questions:"Anh chị em có thường xuyên hỗ trợ lẫn nhau, sống chung hay phải xa cách vì hoàn cảnh? Có sự kiện nào làm quan hệ thay đổi không?"},
+"Tử Tức":{title:"Tương tác với con cái và thế hệ sau",base:"Cung Tử Tức trong lời luận cổ có nhiều phú đoán định về số con. Trang này chỉ dùng như mô tả tượng sao liên quan tới trách nhiệm, mối quan hệ với hậu bối và phương cách hòa hợp, không xác định số con hoặc khả năng sinh sản.",questions:"Khi có dữ kiện gia đình phù hợp, quan hệ hỗ trợ thế hệ sau có bị áp lực từ kỳ vọng hay xung đột quyền quyết định không?"},
+"Nô Bộc":{title:"Bạn bè, đồng nghiệp, quý nhân và người hợp tác",base:"Nô Bộc phải được đọc cùng Quan Lộc và xung với Huynh Đệ. Sao trợ tốt không bảo đảm đối tác đáng tin; sát tinh xấu cũng không có nghĩa mọi quan hệ đều gây hại.",questions:"Từng được cộng sự cứu giúp hay mất cơ hội vì đổi nhóm, tranh chấp ngoài ý muốn hoặc thay đổi lãnh đạo chưa?"},
+"Tật Ách":{title:"Tượng số về cơ thể, bệnh lý và tai ách",base:"Trong sách, tên sao được gắn với nhóm cơ quan hoặc dạng tai ách; đây không phải phép chẩn đoán. Khi có bệnh thật phải xem hồ sơ y khoa độc lập. Tật Ách cần phối hợp với Mệnh, Thân, Phụ Mẫu và hạn, nhất là các biến cố tuổi nhỏ.",questions:"Có hồ sơ hoặc mốc năm bệnh/tai nạn thật không? Có những vấn đề sách gợi ra nhưng thực tế hoàn toàn không xảy ra không?"},
+"Thiên Di":{title:"Ra ngoài, đi xa, môi trường và cơ hội xã hội",base:"Thiên Di không đồng nghĩa bắt buộc phải xuất ngoại. Nó còn liên hệ tới đối tác, môi trường làm việc, giao tiếp bên ngoài, thuận lợi hoặc trở ngại khi thay đổi nơi hoạt động.",questions:"Đã có thay đổi môi trường nào do hoàn cảnh, học tập, công ty hoặc gia đình không? Có từng phải bỏ kế hoạch ra đi không?"},
+"Điền Trạch":{title:"Chỗ ở, nhà đất, điều kiện sinh hoạt và tổ nghiệp",base:"Cần phân biệt nơi ở thực tế, nhà thuộc sở hữu của ai và khả năng tích lũy bất động sản. 'Không chuyển nhà' không tự động chứng minh Điền tốt; cung Điền còn được sách luận về môi trường sinh hoạt, nơi làm việc và tài sản.",questions:"Nơi ở có thay đổi dù không chuyển địa chỉ như sửa chữa, đổi người sống cùng, tranh chấp, quy hoạch hoặc vấn đề tài sản ngoài ý muốn không?"}
+};
+const MAINS={
+"Tử Vi":"điều phối, quyền quyết định, tổ chức và sự hỗ trợ từ hệ thống; gặp sát tinh dễ phải tự gánh trách nhiệm lớn",
+"Thiên Cơ":"trí óc, lập kế hoạch, kỹ nghệ và sự thay đổi; cát tinh giúp tính linh hoạt, sát tinh dễ thành bất an hoặc đổi hướng liên tục",
+"Thái Dương":"tính công khai, trách nhiệm, danh dự và hình tượng trưởng bối nam; độ sáng ảnh hưởng lớn khi luận theo sách",
+"Vũ Khúc":"tiền bạc, kỷ luật, kỹ năng nghiệp vụ và tính độc lập; hung tinh có thể làm quyết định trở nên cứng hoặc tăng tổn hao",
+"Thiên Đồng":"phúc khí, tính thích nghi, cảm xúc và nhu cầu an ổn; Kỵ hay sát tinh làm mặt hưởng phúc giảm",
+"Liêm Trinh":"quy tắc, kiểm soát, tranh chấp và trách nhiệm; miếu/vượng thuận lợi hơn hãm địa",
+"Thiên Phủ":"quản giữ nguồn lực, sự tích lũy, tính ổn định và bảo trợ; gặp Hao/Không Kiếp không tự động giữ được tốt",
+"Thái Âm":"sự kín đáo, nội lực, chăm sóc, tích lũy và hình tượng trưởng bối nữ; Khoa/Kỵ là dị bản cần tách",
+"Tham Lang":"giao tiếp, ham muốn, trải nghiệm và nguồn lợi từ quan hệ; hãm/sát dễ phân tán mục tiêu",
+"Cự Môn":"lời nói, tranh luận, thương lượng và ngôn ngữ; càng nhiều sát/Kỵ càng cần cẩn trọng thị phi",
+"Thiên Tướng":"trách nhiệm, dịch vụ, hòa giải và năng lực giữ trật tự; hãm/sát làm sự bảo trợ kém hiệu quả",
+"Thiên Lương":"đạo lý, nguyên tắc, người dẫn dắt và tính bảo hộ; Kình/Hỏa/Không Kiếp làm mặt che chở bớt thuận",
+"Thất Sát":"sự quyết liệt, tự lập, cạnh tranh và việc khó; hãm địa thường được sách luận nghiêm về biến động",
+"Phá Quân":"cải tổ, phá cũ tạo mới, biến đổi môi trường; gặp hung tinh có thể làm thay đổi thành đứt gãy"};
+const PAIRS=[
+{names:["Tử Vi","Phá Quân"],text:"Tử Vi cần trật tự, Phá Quân cần cải tổ: có thể làm việc lớn khi thay đổi có kế hoạch, nhưng dễ mâu thuẫn giữa giữ và phá. Không nên chỉ lấy Tử Vi làm bằng chứng ổn định hoặc chỉ lấy Phá Quân để gọi thất bại."},
+{names:["Tử Vi","Thất Sát"],text:"Tử Vi điều phối, Thất Sát hành động quyết liệt: thích chủ động gánh việc khó, nhưng quan hệ quyền lực và các quyết định cứng có thể là điểm cần xem sát tinh."},
+{names:["Tử Vi","Thiên Tướng"],text:"Lấy điều phối kết hợp trợ tá và kỷ cương; có khả năng giữ tổ chức nếu không bị sát tinh/hãm địa phá, nhưng tránh đánh đồng quyền hạn với tiền bạc."},
+{names:["Liêm Trinh","Thiên Phủ"],text:"Liêm Trinh giữ nguyên tắc, Thiên Phủ giữ nguồn lực: tổ hợp nề nếp, quản trị, kỷ luật; khi gặp Không/Kỵ, tính ổn định có thể chuyển thành bó buộc và áp lực."},
+{names:["Liêm Trinh","Tham Lang"],text:"Hai sao nhấn mạnh nhu cầu trải nghiệm và kiểm soát; hãm địa dễ nghiêng về thiếu nhất quán, xung đột lợi ích hoặc hao tổn vì quan hệ và lựa chọn."},
+{names:["Liêm Trinh","Phá Quân"],text:"Liêm Trinh đòi khuôn phép nhưng Phá Quân muốn đổi mới, nên dễ hình thành các bước ngoặt đột ngột. Hội thêm Tuần, Kình hoặc Không Kiếp thì phải giữ luận cảnh báo."},
+{names:["Vũ Khúc","Thiên Tướng"],text:"Năng lực tổ chức, tài chính và trách nhiệm đi cùng nhau; rất cần xét Hóa Quyền, Lộc và Thiên Mã, nhưng sát tinh có thể tạo áp lực quyền lợi và tranh chấp."},
+{names:["Vũ Khúc","Thất Sát"],text:"Tính độc lập mạnh và quyết định quyết liệt về tiền/công việc; độ hãm và Kình–Đà ảnh hưởng trực tiếp đến khả năng giữ ổn định."},
+{names:["Vũ Khúc","Tham Lang"],text:"Một bên trọng kỹ năng, tích lũy; một bên chuộng cơ hội và giao tiếp. Cát tinh có thể phát huy lợi thế kinh doanh, sát tinh khiến tiền bạc hoặc quan hệ thiếu đều."},
+{names:["Thiên Đồng","Thiên Lương"],text:"Một phúc tinh thiên về thích nghi, một sao thiên về nguyên tắc che chở. Tổ hợp tốt khi được cát hóa, nhưng Kỵ–Tuần–Hình có thể làm phúc khí khó phát đầy đủ."},
+{names:["Thiên Đồng","Cự Môn"],text:"Nhu cầu yên ổn gặp năng lực tranh luận; khi tốt thành nhạy cảm và giao tiếp, khi hãm hay gặp Kỵ dễ thành vướng mắc vì lời nói."},
+{names:["Thiên Đồng","Thái Âm"],text:"Tổ hợp cảm xúc, đời sống nội tâm và chăm lo; cần xét cả hai sao có sáng hay không và Khoa–Kỵ chia nhau theo hệ Canh."},
+{names:["Thiên Cơ","Thiên Lương"],text:"Tư duy kế hoạch kết hợp đạo lý và định hướng chuyên môn; thuận trong học hỏi, hướng dẫn, nhưng Hình/Không làm tăng sự lo xa và tính thay đổi."},
+{names:["Thiên Cơ","Cự Môn"],text:"Tư duy phân tích và tranh luận mạnh; tốt khi dùng để nghiên cứu, kỹ thuật hoặc đàm phán; gặp Kỵ/Kình dễ chuyển thành khẩu thiệt và kế hoạch không xong."},
+{names:["Thái Dương","Thiên Lương"],text:"Công khai, uy tín kết hợp đạo lý và sự hướng dẫn; bộ này thường được sách đánh giá khác biệt rất lớn giữa Mão vượng và Dậu hãm."},
+{names:["Thái Dương","Cự Môn"],text:"Tính công khai đi kèm tài nói và phản biện; có năng lực thuyết phục nhưng cũng dễ tranh cãi, nhất là khi gặp Không/Kỵ và các sao gây trở ngại."},
+{names:["Tử Vi","Tham Lang"],text:"Sự điều phối đi cùng giao tiếp, hưởng thụ và mở rộng quan hệ; phải xét hãm/sát và mục đích hợp tác."},
+{names:["Thiên Cơ","Thái Âm"],text:"Sự thay đổi trong kế hoạch đi cùng suy tư/tích lũy; thuận khi có cát tinh, nhưng hãm/sát có thể tăng lo lắng."},
+{names:["Liêm Trinh","Thất Sát"],text:"Kỷ luật cùng sự quyết liệt, có thể theo đuổi nghề áp lực; đồng thời phải xét sát tinh trước khi nói tốt về quyền hành."},
+{names:["Vũ Khúc","Phá Quân"],text:"Kỹ năng quản trị tài lực kết hợp cải tổ; dễ tạo các giai đoạn trước phá sau thành hoặc mất cân đối khi quyết định quá nhanh."}
+];
+const GOOD=new Set(["Lộc Tồn","Tả Phù","Hữu Bật","Văn Xương","Văn Khúc","Thiên Khôi","Thiên Việt","Thiên Phúc","Thiên Giải","Địa Giải","Giải Thần","Thiên Đức","Nguyệt Đức","Long Đức","Thiên Quý","Bát Tọa","Tam Thai","Thiên Quan","Ân Quang","Quốc Ấn","Phong Cáo","Thai Phụ","Phượng Các","Hồng Loan","Thiên Hỷ"]);
+const BAD=new Set(["Kình Dương","Đà La","Hỏa Tinh","Linh Tinh","Địa Không","Địa Kiếp","Thiên Không","Kiếp Sát","Đại Hao","Tiểu Hao","Thiên Hình","Thiên Hư","Thiên Khốc","Cô Thần","Quả Tú","Địa Võng","Thiên La","Phá Toái","Tuế Phá"]);
+const EXPL=[
+{stars:["Lộc Tồn","Hóa Lộc"],label:"Lộc và nguồn lực",text:"Các yếu tố Lộc thường làm mạnh khả năng có cơ hội hoặc nguồn lực; không chứng minh tiền sẽ giữ được nếu tại cung cũng có Hao, Kỵ, Không Kiếp."},
+{stars:["Hóa Quyền","Quốc Ấn"],label:"Quyền và trách nhiệm",text:"Gợi vai trò điều phối, quyền quyết định, sự công nhận hoặc áp lực phải gánh việc. Không phải mọi cung có Quyền đều cho địa vị cao."},
+{stars:["Hóa Khoa","Văn Xương","Văn Khúc","Thiên Khôi","Thiên Việt"],label:"Học hành và danh dự",text:"Cát hóa/học tinh hỗ trợ việc giải quyết bằng kỹ năng, tri thức hoặc danh tiếng. Nếu Xương Khúc hãm hay Hóa Kỵ ở cùng cung thì phải đọc cả hai mặt."},
+{stars:["Tả Phù","Hữu Bật","Tam Thai","Bát Tọa","Thiên Phúc","Giải Thần","Thiên Giải","Địa Giải"],label:"Quý nhân và giải trợ",text:"Là dấu trợ giúp và tháo gỡ trong cách luận cổ, nhưng không loại được nguy cơ từ sát tinh mạnh hoặc một chính tinh hãm."},
+{stars:["Kình Dương","Đà La","Thiên Hình"],label:"Xung lực và va chạm",text:"Thường gắn với cạnh tranh, ràng buộc, vết cắt hoặc sự đối đầu. Khi xét tài sản, nghề và gia đình có thể biểu hiện bằng xung đột/thủ tục; không được coi là dự đoán tai nạn."},
+{stars:["Hỏa Tinh","Linh Tinh"],label:"Tính đột biến",text:"Hỏa–Linh được sách xét rất khác theo miếu/hãm và chính tinh đi cùng. Hung–cát không được quyết định chỉ bằng việc sao xuất hiện."},
+{stars:["Địa Không","Địa Kiếp","Thiên Không"],label:"Gián đoạn hoặc hụt kỳ vọng",text:"Có thể làm giảm sự liền mạch, gây tổn hao hoặc đảo chiều trong cách luận. Đắc địa vẫn không tự động trở thành cát tinh."},
+{stars:["Đại Hao","Tiểu Hao"],label:"Hao phí và dịch chuyển",text:"Phân biệt khoản hao nhỏ thường kỳ với thay đổi lớn; nằm ở Tài/Quan/Điền cần xem chi phí thực tế, không suy rằng chắc mất trắng."},
+{stars:["Hóa Kỵ"],label:"Trở lực và thị phi",text:"Hóa Kỵ thường làm nặng những điểm vướng trong cung; nhưng năm Canh ở đây có hai dị bản an Kỵ, không được bỏ qua cách B."},
+{stars:["Thiên Mã"],label:"Di chuyển",text:"Thiên Mã là dấu hiệu động và di chuyển, có thể biểu hiện ở công việc hoặc môi trường, không nhất thiết là xuất ngoại."}
+];
+const CROSSES={
+"Mệnh":["Quan Lộc","Tài Bạch","Thiên Di"],
+"Quan Lộc":["Mệnh","Tài Bạch","Nô Bộc"],
+"Tài Bạch":["Quan Lộc","Điền Trạch","Phúc Đức"],
+"Phu Thê":["Phúc Đức","Thiên Di","Mệnh"],
+"Phúc Đức":["Phu Thê","Phụ Mẫu","Mệnh"],
+"Phụ Mẫu":["Tật Ách","Mệnh","Huynh Đệ"],
+"Huynh Đệ":["Nô Bộc","Phụ Mẫu","Mệnh"],
+"Tử Tức":["Phu Thê","Phúc Đức","Điền Trạch"],
+"Nô Bộc":["Huynh Đệ","Quan Lộc","Thiên Di"],
+"Tật Ách":["Mệnh","Phụ Mẫu","Phúc Đức"],
+"Thiên Di":["Mệnh","Quan Lộc","Nô Bộc"],
+"Điền Trạch":["Tài Bạch","Phúc Đức","Phụ Mẫu"]};
+const POSITIONS={6:[1,1],7:[1,2],8:[1,3],9:[1,4],5:[2,1],10:[2,4],4:[3,1],11:[3,4],3:[4,1],2:[4,2],1:[4,3],12:[4,4]};
+const S={charts:[],notes:{},hour:0,house:"Mệnh",variant:"A",compareHour:1,compareHouse:"Phu Thê"};
+const $=x=>document.querySelector(x);
+const esc=x=>String(x??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+const hv=x=>x?.brightness?` (${x.brightness})`:"";
+const stars=h=>h.main.map(n=>n+hv(h.stars.find(z=>z.name===n&&z.type==="main"))).join(" · ")||"Vô chính diệu";
+const find=(c,p)=>Object.values(c.houses).find(x=>x.palace===p);
+const opp=(c,h)=>Object.values(c.houses).find(x=>(x.id-h.id+12)%12===6);
+const trine=(c,h)=>Object.values(c.houses).filter(x=>x.id!==h.id&&(x.id-h.id+12)%4===0);
+const hua=(c,h)=>Object.entries(S.variant==="A"?c.tuhua:c.tuhua_alternative).filter(([k,v])=>v===h.id).map(([k])=>k);
+const chip=(value,kind="")=>`<span class="tag ${kind}">${esc(value)}</span>`;
+const trim=(text,num=165)=>text.length>num?text.slice(0,num).replace(/\s+\S*$/,"")+"…":text;
+function starGroup(c,h,yes){return h.stars.filter(s=>(yes?GOOD:BAD).has(s.name)).map(s=>s.name+hv(s))}
+function contextLine(c,h){
+ let x=opp(c,h),y=trine(c,h),arr=[...y,x];
+ return arr.map(z=>`<button class="related" data-related="${esc(z.palace)}"><b>${esc(z.palace)} · ${esc(z.chi)}</b><span>${esc(stars(z))}${z.tuan?" · Tuần":""}${z.triet?" · Triệt":""}</span></button>`).join("");
+}
+function mainAnalysis(c,h){
+ const st=h.main.map(n=>`${n}${hv(h.stars.find(z=>z.name===n&&z.type==="main"))}`);
+ const isVcd=h.main.length===0;
+ let intro=isVcd?`Cung ${h.palace} <b>vô chính diệu tại ${h.chi}</b>. Không được suy thành “không có” điều cung ấy đại diện. Đối cung có <b>${stars(opp(c,h))}</b>; theo lối đọc đối cung, đây là hệ sao cần lấy làm nền tham khảo, nhưng vẫn phải xét sao phụ đang tọa thủ tại ${h.chi}.`:`Có <b>${esc(st.join(" và "))}</b> tại ${esc(h.chi)}. ${h.main.map(n=>`${esc(n)} nhấn mạnh ${esc(MAINS[n])}`).join(". ")}.`;
+ let combo=PAIRS.find(z=>z.names.length===h.main.length&&z.names.every(n=>h.main.includes(n)));
+ if(combo)intro+=`<p><strong>Giải thích bộ sao ${esc(h.main.join("–"))}:</strong> ${esc(combo.text)}</p>`;
+ if(!isVcd){const favorable=h.stars.filter(s=>s.type==="main"&&["M","V","Đ"].includes(s.brightness)).map(s=>s.name),weak=h.stars.filter(s=>s.type==="main"&&s.brightness==="H").map(s=>s.name);intro+=`<p><b>Độ sáng:</b> ${favorable.length?`các sao ${esc(favorable.join(", "))} có ký hiệu miếu/vượng/đắc trong bảng đang dùng; `:""}${weak.length?`các sao ${esc(weak.join(", "))} ở hãm địa nên cần trừ độ thuận; `:""}độ sáng không phải phán quyết độc lập nếu gặp sát tinh, Hóa Kỵ, Tuần hoặc Triệt.</p>`}
+ return intro;
+}
+function factorAnalysis(c,h){
+ const names=h.stars.map(z=>z.name).concat(hua(c,h));
+ let effects=EXPL.filter(g=>g.stars.some(n=>names.includes(n)));
+ let a=effects.map(g=>`<p><strong>${esc(g.label)}:</strong> ${esc(g.stars.filter(n=>names.includes(n)).join(", "))}. ${esc(g.text)}</p>`).join("");
+ if(h.tuan||h.triet)a+=`<p><strong>${h.tuan?"Tuần":""}${h.tuan&&h.triet?" và ":""}${h.triet?"Triệt":""} án cung:</strong> Trong cách luận cổ, sao án làm hạn chế hoặc làm chậm biểu hiện của cung. Gặp cát tinh thì bớt độ thông suốt; gặp hung tinh có thể đồng thời chặn bớt sức gây hại. Vì vậy không mặc định Tuần/Triệt chỉ tốt hoặc chỉ xấu.</p>`;
+ if(!a)a="<p>Không thấy bộ phụ tinh chính thuộc nhóm Lộc, Quyền, Khoa, Kỵ, Không–Kiếp, Kình–Đà, Hỏa–Linh hay các sao giải trợ đang được theo dõi. Kết luận phải dựa chủ yếu vào chính tinh, độ sáng, các sao còn lại và tam phương.</p>";
+ return a;
+}
+function crossAnalysis(c,h){
+ const x=opp(c,h),tri=trine(c,h);
+ const fmt=z=>{let hz=hua(c,z),neg=starGroup(c,z,false);return `<p><b>${esc(z.palace)} tại ${esc(z.chi)}:</b> ${esc(stars(z))}; ${hz.length?"Hóa: "+esc(hz.join(", "))+"; ":""}${neg.length?"lưu ý "+esc(neg.slice(0,4).join(", ")):"chưa có nhóm sát nổi bật đang được lọc"}. ${z.tuan?"Có Tuần. ":""}${z.triet?"Có Triệt. ":""}</p>`};
+ return `<p><strong>Xung chiếu:</strong></p>${fmt(x)}<p><strong>Tam hợp:</strong></p>${tri.map(fmt).join("")}<p>Cung ${esc(h.palace)} phải được tổng hợp với ba cung này trước khi nâng mức nhận xét. Tính chất ở một cung không thay thế hoàn toàn việc đọc chính tinh tại cung đang xét.</p>`;
+}
+function variantAnalysis(c,h){
+ let A=Object.entries(c.tuhua).filter(([k,v])=>v===h.id).map(([k])=>k);
+ let B=Object.entries(c.tuhua_alternative).filter(([k,v])=>v===h.id).map(([k])=>k);
+ if(A.join()===B.join())return `Tứ Hóa tại cung này ${A.length?"là "+A.join(", "):"không thay đổi"} giữa hệ A và hệ B. Các cung xung/hợp khác có thể chịu ảnh hưởng khác nhau.`;
+ return `Cung này <b>khác nhau theo phép an Tứ Hóa năm Canh</b>: hệ A có <b>${A.join(", ")||"không có Tứ Hóa"}</b>; hệ B có <b>${B.join(", ")||"không có Tứ Hóa"}</b>. Khi thấy Hóa Khoa/Kỵ ảnh hưởng mạnh trong phần luận gốc, phải thử đọc cả hai hệ thay vì chọn cách nghe thuận hơn.`;
+}
+function detailMarkup(c,p,compact=false){
+ const h=find(c,p),o=opp(c,h),tr=trine(c,h),good=starGroup(c,h,true),bad=starGroup(c,h,false),hutas=hua(c,h);
+ const n=S.notes[c.hour]?.[p]?.text||"Chưa có ghi chú riêng trong tập hợp; cần kiểm tra dữ liệu nguồn.";
+ const title=`${esc(p)} tại ${esc(h.chi)} · ${esc(stars(h))}`;
+ if(compact)return `<h3>${esc(c.hour)} · ${esc(c.range)}</h3><p class="s">Cục ${esc(c.cuc_name)} · Thân cư ${esc(c.than_palace)}</p><p><strong>${title}</strong></p><p class="compareThesis">${esc(n)}</p><div>${good.map(x=>chip(x,"good")).join("")}${bad.map(x=>chip(x,"bad")).join("")}${hutas.map(x=>chip(x,x==="Hóa Kỵ"?"bad":"good")).join("")}${h.tuan?chip("Tuần","amb"):""}${h.triet?chip("Triệt","amb"):""}</div><p><b>Xung:</b> ${esc(o.palace)} ${esc(o.chi)} — ${esc(stars(o))}</p><p><b>Tam hợp:</b> ${esc(tr.map(x=>x.palace+" "+x.chi+" ("+stars(x)+")").join("; "))}</p><p class="muted">Hệ Tứ Hóa đang xem: ${S.variant}. Nguồn: ${esc(SOURCE[p])}.</p>`;
+ return `<div class="detailLead"><div class="headline"><div class="boxLabel">${esc(LENSES[p].title)}</div><h2>${title}</h2><div class="taggroup">${good.map(x=>chip(x,"good")).join("")}${bad.map(x=>chip(x,"bad")).join("")}${hutas.map(x=>chip(x,x==="Hóa Kỵ"?"bad":"good")).join("")}${h.tuan?chip("Tuần","amb"):""}${h.triet?chip("Triệt","amb"):""}</div><p><strong>Luận riêng theo phương án giờ ${esc(c.hour)}:</strong> ${esc(n)}</p><p class="evidence">Đã kế thừa nhận xét chi tiết từ ${esc(S.notes[c.hour]?.[p]?.source||"báo cáo nguồn")}; dựa trên ${esc(SOURCE[p])}.</p></div><aside class="side"><h3>Nguyên tắc đọc cung này</h3><p>${esc(LENSES[p].base)}</p><div class="boxLabel">Trục liên quan</div><ul>${CROSSES[p].map(t=>`<li><b>${esc(t)}</b>: ${esc(stars(find(c,t)))}</li>`).join("")}</ul></aside></div>
+ <div class="longgrid">
+ <article class="analysis"><h3>1. Chính tinh và bộ sao</h3>${mainAnalysis(c,h)}</article>
+ <article class="analysis"><h3>2. Sao hỗ trợ, sát tinh, Tuần–Triệt</h3>${factorAnalysis(c,h)}</article>
+ <article class="analysis"><h3>3. Đối cung và tam phương tứ chính</h3>${crossAnalysis(c,h)}</article>
+ <article class="analysis"><h3>4. Hai hệ Tứ Hóa năm Canh</h3><p>${variantAnalysis(c,h)}</p><p>Đối với Mệnh–Thân, không tách cung này khỏi nơi <strong>Thân cư ${esc(c.than_palace)}</strong>. ${h.is_than?"Thân cư ngay cung đang xét, nên chủ đề cung này được nhấn mạnh trong cách luận truyền thống.":""}</p></article>
+ <article class="analysis wide"><h3>5. Cách kiểm chứng và giới hạn kết luận</h3><p><b>Câu hỏi thực tế cần đối chiếu:</b> ${esc(LENSES[p].questions)}</p><p><b>Giới hạn:</b> Lời luận cổ không phải bằng chứng cho bệnh lý, khả năng sinh sản, hành vi đạo đức, khoản tiền sẽ kiếm hay một biến cố tất yếu. Dữ kiện đời thực cần được ghi độc lập và xét cả các trường hợp không phù hợp với lá số.</p><div class="evidence"><b>Nguồn đọc:</b> ${esc(SOURCE[p])}; tham khảo thêm <i>Tử Vi đẩu số toàn thư</i> và <i>Tử Vi Thực Hành</i> trong các sách đã cung cấp. Phần “Ý nghĩa/đối cung” là diễn giải có cấu trúc, không phải lời trích nguyên văn.</div></article></div>`;
+}
+function drawOverview(c){
+ const keys=["Mệnh","Quan Lộc","Tài Bạch","Phu Thê","Tật Ách","Điền Trạch"];
+ $("#overview").innerHTML=keys.map(p=>`<article><h4>${esc(p)} · ${esc(find(c,p).chi)} · ${esc(stars(find(c,p)))}</h4><p>${esc(trim(S.notes[c.hour][p].text,175))}</p><a href="#chi-tiet" data-go="${esc(p)}">Đọc phân tích đầy đủ</a></article>`).join("");
+ $("#overview").querySelectorAll("[data-go]").forEach(b=>b.onclick=()=>{S.house=b.dataset.go;drawDetail()});
+}
+function drawMap(c){
+ const out=Object.values(c.houses).sort((a,b)=>a.id-b.id).map(h=>{
+ const [r,col]=POSITIONS[h.id];
+ return `<button class="house ${h.palace===S.house?"active":""}" style="grid-row:${r};grid-column:${col}" data-place="${esc(h.palace)}" title="Xem luận giải ${esc(h.palace)} tại ${esc(h.chi)}"><div class="house-head"><strong>${esc(h.palace)}</strong><small>${esc(h.chi)}</small></div><span>${esc(stars(h))}</span><small>${h.is_than?"Thân cư · ":""}Đại hạn ${h.daivan}–${h.daivan+9}</small><em>${h.tuan?"Tuần ":""}${h.triet?"Triệt ":""}${hua(c,h).join(", ")}</em></button>`}).join("");
+ $("#chart").innerHTML=out+`<div class="center"><div class="eyebrow" style="color:#51788f">Giờ sinh</div><h3>${esc(c.hour)}</h3><strong>${esc(c.range)}</strong><p>${esc(c.cuc_name)} · Thân cư ${esc(c.than_palace)}</p><small>${esc(c.lunar)}</small></div>`;
+ $("#chart").querySelectorAll("[data-place]").forEach(b=>b.onclick=()=>{S.house=b.dataset.place;drawMap(c);drawDetail();});
+}
+function drawDetail(){
+ const c=S.charts[S.hour];
+ $("#topicBar").innerHTML=HOUSES.map(p=>`<button class="topic ${S.house===p?"active":""}" data-topic="${esc(p)}" type="button">${esc(p)}</button>`).join("");
+ $("#topicBar").querySelectorAll("[data-topic]").forEach(b=>b.onclick=()=>{S.house=b.dataset.topic;drawMap(c);drawDetail()});
+ $("#detail").innerHTML=detailMarkup(c,S.house);
+ $("#detail").querySelectorAll("[data-related]").forEach(b=>b.onclick=()=>{S.house=b.dataset.related;drawMap(c);drawDetail();$("#chi-tiet").scrollIntoView({behavior:"smooth",block:"start"})});
+ $("#detailLabel").textContent=`Giờ ${c.hour} · ${S.house} · Tứ Hóa hệ ${S.variant}`;
+}
+function drawSummary(){
+ const c=S.charts[S.hour];
+ $("#hours").innerHTML=S.charts.map((x,i)=>`<button class="hour ${i===S.hour?"active":""}" data-hour="${i}" type="button">${esc(x.hour)}</button>`).join("");
+ $("#hours").querySelectorAll("[data-hour]").forEach(b=>b.onclick=()=>{S.hour=Number(b.dataset.hour);refresh()});
+ $("#selectHour").value=String(S.hour);
+ const s=(p)=>find(c,p);
+ $("#stats").innerHTML=[["Mệnh",`${s("Mệnh").chi} · ${stars(s("Mệnh"))}`],["Thân cư",c.than_palace],["Cục",c.cuc_name],["Ngày âm",c.lunar]].map(([a,b])=>`<div class="stat"><small>${esc(a)}</small><strong>${esc(b)}</strong></div>`).join("");
+ drawMap(c);drawOverview(c);drawDetail();drawYears();
+}
+function drawYears(){
+ const c=S.charts[S.hour],years=[2019,2021,2023,2024,2025,2026]; // Summary only from date after lunar new year
+ $("#years").innerHTML=years.map(y=>{const age=y-2000+1,x=Object.values(c.houses).find(h=>age>=h.daivan&&age<h.daivan+10);return `<div class="year"><strong>${y}</strong><span>${age} tuổi mụ</span><small>${x?esc(x.palace+" tại "+x.chi+" · "+stars(x)):"Tiền đại hạn"}</small></div>`}).join("");
+}
+function drawCompare(){
+ const c=S.charts[S.hour],b=S.charts[S.compareHour];
+ $("#cmpA").value=String(S.hour);$("#cmpB").value=String(S.compareHour);$("#cmpHouse").value=S.compareHouse;
+ $("#compareCards").innerHTML=`<div class="compareCard">${detailMarkup(c,S.compareHouse,true)}</div><div class="compareCard">${detailMarkup(b,S.compareHouse,true)}</div>`;
+}
+function refresh(){
+ $("#toggleA").classList.toggle("active",S.variant==="A");$("#toggleB").classList.toggle("active",S.variant==="B");
+ drawSummary();drawCompare();
+}
+function wire(){
+ $("#selectHour").innerHTML=S.charts.map((c,i)=>`<option value="${i}">${esc(c.hour+" — "+c.range)}</option>`).join("");
+ $("#cmpA").innerHTML=$("#selectHour").innerHTML;$("#cmpB").innerHTML=$("#selectHour").innerHTML;
+ $("#cmpHouse").innerHTML=HOUSES.map(p=>`<option value="${esc(p)}">${esc(p)}</option>`).join("");
+ $("#selectHour").onchange=e=>{S.hour=Number(e.target.value);refresh()};
+ $("#toggleA").onclick=()=>{S.variant="A";refresh()};
+ $("#toggleB").onclick=()=>{S.variant="B";refresh()};
+ $("#cmpA").onchange=e=>{S.hour=Number(e.target.value);refresh()};
+ $("#cmpB").onchange=e=>{S.compareHour=Number(e.target.value);drawCompare()};
+ $("#cmpHouse").onchange=e=>{S.compareHouse=e.target.value;drawCompare()};
+ $("#chapterPrevious").onclick=()=>{S.hour=(S.hour+12)%13;refresh()};
+ $("#chapterNext").onclick=()=>{S.hour=(S.hour+1)%13;refresh()};
+}
+async function boot(){
+ try{
+ const r=await Promise.all([fetch("./du-lieu-laso-19012001.json"),fetch("./luan-giai-chuyen-sau-data.json")]);
+ for(let i=0;i<r.length;i++)if(!r[i].ok)throw Error("Không tải được tài liệu số "+(i+1)+": HTTP "+r[i].status);
+ const [a,b]=await Promise.all(r.map(x=>x.json()));if(a.length!==13)throw Error("Dữ liệu lá số không đủ 13 phương án");
+ for(const c of a)for(const p of HOUSES){if(!b.notes[c.hour]?.[p]?.text||!find(c,p))throw Error("Thiếu luận giải "+c.hour+" "+p)}
+ S.charts=a;S.notes=b.notes;$("#error").hidden=true;$("#app").hidden=false;
+ wire();refresh();
+ }catch(e){$("#error").hidden=false;$("#error").textContent="Không tải được dữ liệu trang: "+e.message+". Cần mở trang qua một máy chủ web (GitHub Pages), không mở HTML bằng file://.";$("#app").hidden=true}
+}
+boot();
+})()</script></body></html>
