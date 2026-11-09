@@ -162,6 +162,8 @@ function mainAnalysis(c,h){
  const st=h.main.map(n=>`${n}${hv(h.stars.find(z=>z.name===n&&z.type==="main"))}`);
  const isVcd=h.main.length===0;
  let intro=isVcd?`Cung ${h.palace} <b>vô chính diệu tại ${h.chi}</b>. Không được suy thành “không có” điều cung ấy đại diện. Đối cung có <b>${stars(opp(c,h))}</b>; theo lối đọc đối cung, đây là hệ sao cần lấy làm nền tham khảo, nhưng vẫn phải xét sao phụ đang tọa thủ tại ${h.chi}.`:`Có <b>${esc(st.join(" và "))}</b> tại ${esc(h.chi)}. ${h.main.map(n=>`${esc(n)} nhấn mạnh ${esc(MAINS[n])}`).join(". ")}.`;
+ const basis=S.notes[c.hour]?.[h.palace]?.base;
+ if(basis&&!basis.startsWith("Vô chính diệu"))intro+=`<p><strong>Ý nghĩa riêng khi bộ sao này nằm tại cung ${esc(h.palace)}:</strong> ${esc(basis)} ${h.palace==="Tật Ách"?"Đây chỉ là nhóm cơ quan được sách cổ liên hệ với sao, không dùng để chẩn đoán bệnh.":""}</p>`;
  let combo=PAIRS.find(z=>z.names.length===h.main.length&&z.names.every(n=>h.main.includes(n)));
  if(combo)intro+=`<p><strong>Giải thích bộ sao ${esc(h.main.join("–"))}:</strong> ${esc(combo.text)}</p>`;
  if(!isVcd){const favorable=h.stars.filter(s=>s.type==="main"&&["M","V","Đ"].includes(s.brightness)).map(s=>s.name),weak=h.stars.filter(s=>s.type==="main"&&s.brightness==="H").map(s=>s.name);intro+=`<p><b>Độ sáng:</b> ${favorable.length?`các sao ${esc(favorable.join(", "))} có ký hiệu miếu/vượng/đắc trong bảng đang dùng; `:""}${weak.length?`các sao ${esc(weak.join(", "))} ở hãm địa nên cần trừ độ thuận; `:""}độ sáng không phải phán quyết độc lập nếu gặp sát tinh, Hóa Kỵ, Tuần hoặc Triệt.</p>`}
